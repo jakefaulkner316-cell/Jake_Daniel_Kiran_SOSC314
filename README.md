@@ -16,3 +16,5 @@ Research Question: Does the sentiment of Vogue advertising language change betwe
 -- Data Feasibility: Small db (1.67GB) that will be reduced even more after filtering per date and source type; feasible to process. OCR outcomes need to be considered, as old advertisement scans and different design can impact the precision of the transcription.
 
 -- Final paper possible title: Advertising Sentiment and the Business Cycle: Evidence from Vogue Magazine Ads
+
+-- DB has to change:  data on NYU website is inaccessible even for NYU students and faculty. Use source from "The Economist". Jake will add.
