@@ -1,9 +1,9 @@
 # Jake-Daniel-Kiran-Private-Github-
 Sosc 314
 https://inquirer.sites.fas.harvard.edu/spreadsheet_guide.htm?utm_source=chatgpt.com
-Research Question: Does the sentiment of Vogue advertising language change between economic recessions and expansions?
+Research Question: Does the sentiment of the Economist advertising language change between economic recessions and expansions?
 
--- Research Question: Does the sentiment of Vogue advertising language change between economic recessions and expansions?
+-- Research Question: Does the sentiment of the Economist advertising language change between economic recessions and expansions?
 
 -- Bag-of-Words (Existing) from (I) https://inquirer.sites.fas.harvard.edu/spreadsheet_guide.htm and (II) https://sraf.nd.edu/loughranmcdonald-master-dictionary/, Satisfying week 4's requirement of comparing different models or analysis.
 
