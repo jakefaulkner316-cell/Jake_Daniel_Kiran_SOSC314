@@ -1,9 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 #To read excel
-pd.read_excel("../Initial file imports/inquireraugmented.xls")
 harvard = pd.read_excel(
-    "../Initial file imports/inquireraugmented.xls"
+    "../Initial file imports/inquireraugmented.xls",
+    engine="xlrd"
 )
 
 # Show the first few rows.
