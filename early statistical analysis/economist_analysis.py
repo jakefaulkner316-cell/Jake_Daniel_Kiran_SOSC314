@@ -232,3 +232,28 @@ word_count_table.to_csv(
     "word_count_summary_table.csv",
     index=False
 )
+# Keep only advertisements published from 1948 onward as is in line with our project
+ads_after_1948 = important_columns[
+    important_columns["Year"] >= 1948
+]
+# Create a summary table for advertisements from 1948 onward.
+post_1948_summary = pd.DataFrame({
+    "Category": [
+        "Total Ads",
+        "Branded Ads",
+        "Generic / Notice Ads"
+    ],
+    "Count": [
+        len(ads_after_1948),
+        (ads_after_1948["Brand is generic (e.g. 'Notices')"] == False).sum(),
+        (ads_after_1948["Brand is generic (e.g. 'Notices')"] == True).sum()
+    ]
+})
+
+print("\nPOST-1948 ADVERTISEMENT SUMMARY:")
+print(post_1948_summary)
+
+post_1948_summary.to_csv(
+    "post_1948_advertisement_summary.csv",
+    index=False
+)
