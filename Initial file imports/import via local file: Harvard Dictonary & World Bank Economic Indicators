@@ -55,6 +55,8 @@ harvard.head()
 # This lets us inspect the columns and confirm that the file imported correctly
 economic_data.head()
 
+#This process was repeated for the Economist Advertisment Dataset
+
 # Print the number of rows and columns in each dataset
 # The first number is rows and the second number is columns
 print("Harvard dictionary shape:", harvard.shape)
