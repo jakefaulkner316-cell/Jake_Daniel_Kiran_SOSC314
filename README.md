@@ -11,7 +11,7 @@ Research Question: Does the sentiment of the Economist advertising language chan
 
 -- Unit of Analysis: Advertisement Sentiment, analyzing the ratio between Positive Words and Total Words
 
---Data Treatment: The dataset contains individual advertisements with publication dates, advertiser/brand information, and OCR-generated advertisement text. The text was extracted from scanned Economist pages using Google Vision OCR. We will use advertisements from the post-WWII period, likely beginning around 1948, and try see if there is a significant shift in language sentiment from recessionary periods to inflationary periods. 
+--Data Treatment: The dataset contains individual advertisements with publication dates, advertiser/brand information, and OCR-generated advertisement text. The text was extracted from scanned Economist pages using Google Vision OCR. We will use advertisements from the post-WWII period, likely beginning around 1948, and try see if there is a significant shift in language sentiment from recessionary periods to inflationary periods. We chose this year as it represents roughly the starting period of the current liberal international order.
 
 --Data Feasibility: The Master Dataset is relatively small at about 670 MB and is available as a CSV, making it very feasible to process. It will become smaller after filtering by date and possibly advertisement type. OCR quality must still be considered because older advertisements or things like unusual fonts may lead to errors.
 
