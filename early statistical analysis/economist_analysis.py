@@ -135,3 +135,81 @@ plt.ylabel("Number of Advertisements")
 
 plt.savefig("ads_per_quarter_1948_2014.png")
 plt.close()
+# Check how many advertisements are missing OCR text as we need that for the sentiment analysis:
+missing_ocr = important_columns["OCR_GoogleVision_original"].isna().sum()
+
+# Check the total number of advertisements that way we can calculate the percentage that don't have OCR 
+total_ads = len(important_columns)
+missing_ocr_percent = (missing_ocr / total_ads) * 100
+
+print("\nMISSING OCR TEXT:")
+print("Missing OCR rows:", missing_ocr)
+print("Total advertisements:", total_ads)
+print("Percent missing OCR:", missing_ocr_percent)
+# Every single one of the advertisments has OCR data 
+#word frequency
+# We originally counted words by using .str.split().str.len(), but that method was using too much memory and codespace would terminate early, so ChatGpt Suggested that  we use .str.count(r"\S+") which will count groups of non-space characters in a manor that uses less memory.
+important_columns["Word_Count"] = (
+    important_columns["OCR_GoogleVision_original"]
+    .astype(str)
+    .str.count(r"\S+")
+)
+
+# Show statistics for the number of words in each advertisement.
+print("\nWORD COUNT SUMMARY:")
+print(important_columns["Word_Count"].describe())
+
+
+# Make a histogram to show the distribution of word counts.
+plt.figure()
+
+important_columns["Word_Count"].plot(
+    kind="hist",
+    bins=50
+)
+
+plt.title("Distribution of Advertisement Word Counts")
+plt.xlabel("Number of Words")
+plt.ylabel("Number of Advertisements")
+
+plt.savefig("word_count_distribution.png")
+plt.close()
+#The initial graph was had very high outliers: therefore, I will create a graph where I remove the top 1% of length to more normalize the distribution
+word_count_cutoff = important_columns["Word_Count"].quantile(0.99)
+
+# Keep only advertisements at or below that cutoff for the graph.
+word_count_trimmed = important_columns[
+    important_columns["Word_Count"] <= word_count_cutoff
+]
+
+# Make a histogram using the trimmed data.
+plt.figure()
+
+word_count_trimmed["Word_Count"].plot(
+    kind="hist",
+    bins=50
+)
+
+plt.title("Distribution of Advertisement Word Counts (Trimmed at 99th Percentile)")
+plt.xlabel("Number of Words")
+plt.ylabel("Number of Advertisements")
+
+plt.savefig("word_count_distribution_trimmed.png")
+plt.close()
+# Compare generic advertisements/notices to regular branded advertisements.
+# This helps us see how much of the dataset may not represent normal commercial advertising.
+generic_counts = important_columns[
+    "Brand is generic (e.g. 'Notices')"
+].value_counts(dropna=False)
+
+print("\nGENERIC VS NON-GENERIC ADS:")
+print(generic_counts)
+
+generic_counts.plot(kind="bar")
+
+plt.title("Generic vs Non-Generic Advertisements")
+plt.xlabel("Advertisement Type")
+plt.ylabel("Number of Advertisements")
+
+plt.savefig("generic_vs_non_generic.png")
+plt.close()
