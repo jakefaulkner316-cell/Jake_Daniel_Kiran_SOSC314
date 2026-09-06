@@ -213,3 +213,22 @@ plt.ylabel("Number of Advertisements")
 
 plt.savefig("generic_vs_non_generic.png")
 plt.close()
+# Create a table with basic summary statistics for advertisement word counts as right now it is hard to see.
+word_count_table = (
+    important_columns["Word_Count"]
+    .describe()
+    .reset_index()
+)
+
+word_count_table.columns = [
+    "Statistic",
+    "Word_Count"
+]
+
+print("\nWORD COUNT SUMMARY TABLE:")
+print(word_count_table)
+
+word_count_table.to_csv(
+    "word_count_summary_table.csv",
+    index=False
+)
