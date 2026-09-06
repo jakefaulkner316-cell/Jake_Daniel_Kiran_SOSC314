@@ -7,14 +7,13 @@ Research Question: Does the sentiment of Vogue advertising language change betwe
 
 -- Bag-of-Words (Existing) from (I) https://inquirer.sites.fas.harvard.edu/spreadsheet_guide.htm and (II) https://sraf.nd.edu/loughranmcdonald-master-dictionary/, Satisfying week 4's requirement of comparing different models or analysis.
 
--- Advertisement Data (Existing): "ProQuest Vogue Text-as-Data Collection" at https://ultraviolet.library.nyu.edu/records/p4gvb-msg85
+--Advertisement Data (Existing): "The Economist Historical Advertisements - Master Dataset" at https://openbigdata.org/resource/the-economist-historical-advertisements-master-dataset/. The dataset contains metadata for 512,599 advertisements from all 8,840 issues of The Economist published between 1843 and 2014.
 
 -- Unit of Analysis: Advertisement Sentiment, analyzing the ratio between Positive Words and Total Words
 
--- Data Treatment: The Vogue database includes multiple formats of content, including articles, and covers about 130 years of records. We will use just Advertisement text data from post-WW2 (1948), considering that the National Bureau of Economic Research had developed stronger indicators and sustained more robust definitions of economic cycles starting from that time.
+--Data Treatment: The dataset contains individual advertisements with publication dates, advertiser/brand information, and OCR-generated advertisement text. The text was extracted from scanned Economist pages using Google Vision OCR. We will use advertisements from the post-WWII period, likely beginning around 1948, and try see if there is a significant shift in language sentiment from recessionary periods to inflationary periods. 
 
--- Data Feasibility: Small db (1.67GB) that will be reduced even more after filtering per date and source type; feasible to process. OCR outcomes need to be considered, as old advertisement scans and different design can impact the precision of the transcription.
+--Data Feasibility: The Master Dataset is relatively small at about 246 MB and is available as a CSV, making it very feasible to process. It will become smaller after filtering by date and possibly advertisement type. OCR quality must still be considered because older advertisements or things like unusual fonts may lead to errors.
 
--- Final paper possible title: Advertising Sentiment and the Business Cycle: Evidence from Vogue Magazine Ads
+-- Final paper possible title: Advertising Sentiment and the Business Cycle: Evidence from The Economist Advertisements
 
--- DB has to change:  data on NYU website is inaccessible even for NYU students and faculty. Use source from "The Economist". Jake will add.
