@@ -1,6 +1,6 @@
 # Import panda that we can work with the data.
 import pandas as pd
-#Import matlab that we we can graph
+#Import matplot that we we can graph
 import matplotlib.pyplot as plt
 
 df = pd.read_csv(
