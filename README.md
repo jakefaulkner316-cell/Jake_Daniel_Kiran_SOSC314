@@ -13,7 +13,7 @@ Research Question: Does the sentiment of the Economist advertising language chan
 
 --Data Treatment: The dataset contains individual advertisements with publication dates, advertiser/brand information, and OCR-generated advertisement text. The text was extracted from scanned Economist pages using Google Vision OCR. We will use advertisements from the post-WWII period, likely beginning around 1948, and try see if there is a significant shift in language sentiment from recessionary periods to inflationary periods. We chose this date because it was when the National Bureau of Economic Research (NBER) started to consistently report real GDP regularly on a quarterly basis.
 
---Data Feasibility: The Master Dataset is relatively small at about 670 MB and is available as a CSV, making it very feasible to process. It will become smaller after filtering by date and possibly advertisement type. OCR quality must still be considered because older advertisements or things like unusual fonts may lead to errors.
+--Data Feasibility: The Master Dataset is relatively small at about 670 MB and is available as a CSV, making it very feasible to process. It will become smaller after filtering by date and possibly advertisement type. OCR quality must still be considered because older advertisements or things like unusual fonts may lead to errors. We acknowledge that using NBER definitions within the economy of the United States can raise questions about external validity, but we clarify that all US global recessions since 1950 matched American recessions, and recessions in the US caused at least a slowdown in global economy (Bordo & Helbling,2010).
 
 -- Final paper possible title: Advertising Sentiment and the Business Cycle: Evidence from The Economist Advertisements
 
