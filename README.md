@@ -11,10 +11,7 @@ Research Question: Does the sentiment of the Economist advertising language chan
 
 -- Unit of Analysis: Advertisement Sentiment, analyzing the ratio between Positive Words and Total Words
 
---Data Feasibility: The Master Dataset is relatively small at about 670 MB and is available as a CSV, making it very feasible to process. It will become smaller after filtering by date and possibly advertisement type. OCR quality must still be considered because older advertisements or things like unusual fonts may lead to errors. We acknowledge that using NBER definitions within the economy of the United States can raise questions about external validity, but we clarify that all US global recessions since 1950 matched NBER recessions, capturing the main downturns in a global context (Gose, Sugawara & Torrones, 2010). 
-
 -- Final paper possible title: Advertising Sentiment and the Business Cycle: Evidence from The Economist Advertisements
 
 AI Note:
 For this project, generative AI, namely ChatGPT and Claude, will be used to help in the process of writing the code. All of the ideas, and tasks that need to be done will be human designed. Ie using knowing that a large file needs to be imported so having AI help figure out how to use Gitlfs.
-
