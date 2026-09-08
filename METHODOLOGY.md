@@ -1,11 +1,14 @@
 Add methodology document covering sample scope and estimation choices
 
 --Data Treatment: 
+
     The dataset contains individual advertisements with publication dates, advertiser/brand information, and OCR-generated advertisement text. The text was extracted from scanned Economist pages using Google Vision OCR. We will use advertisements from the post-WWII period, likely beginning around 1948, and try see if there is a significant shift in language sentiment from recessionary periods to inflationary periods. We chose this date as the re-establishment of peacetime supports more stability (with no exceptional wartime shifts), in a manner that the National Bureau of Economic Research (NBER) could consistently report real GDP on a quarterly basis. 
+    
     Filters as per period of ruling exchange rate and fiat currency, such as the post-Bretton-Woods period (1973), logically have interference in the transmissibility of a cycle; hence, this is an analysis we shall execute.
+    
     Advertisement and sentiment are not independent across sequential quarters (1.g. 2004Q2, 2004Q2-2004Q4), and the quantity of advertisements range from a few hundreds to some thousands. The error term is hence incompatible with OLS homoskedasticity assumptions, and we need robust errors to have an adequate analysis.
 
-
+.
 
 --Data Feasibility: 
 The Master Dataset is relatively small at about 670 MB and is available as a CSV, making it very feasible to process. It will become smaller after filtering by date and possibly advertisement type. OCR quality must still be considered because older advertisements or things like unusual fonts may lead to errors. We acknowledge that using NBER definitions within the economy of the United States can raise questions about external validity, but we clarify that all US global recessions since 1950 matched NBER recessions, capturing the main downturns in a global context (Gose, Sugawara & Torrones, 2010). 
