@@ -62,7 +62,6 @@ test_words = clean_ad_text(
 #print("\nFIRST 30 CLEANED WORDS:")
 #print(test_words[:30])
 # Count how many words in one advertisement belong to each Harvard category.
-# Count how many words in one advertisement belong to each Harvard category.
 def count_categories(words):
 
     results = {}
@@ -196,3 +195,130 @@ quarterly_sentiment.to_csv(
 
 print("\nQUARTERLY SENTIMENT DATASET CREATED:")
 print(quarterly_sentiment.head())
+#This was done about a week later to create a data set without stop words, and one that only includes words that have a sentiment based on the harvard dictonary
+import nltk
+from nltk.corpus import stopwords
+stop_words = set(stopwords.words("english"))
+all_harvard_words = set()
+
+for word_set in category_word_sets.values():
+    all_harvard_words.update(word_set)
+
+
+# Create a version of each advertisement with stopwords removed.
+def no_stopwords_version(words):
+
+    return [
+        word for word in words
+        if word not in stop_words
+    ]
+
+
+# Create a version of each advertisement that keeps only words
+# that appear in at least one of the Harvard categories we kept.
+def harvard_only_version(words):
+
+    return [
+        word for word in words
+        if word in all_harvard_words
+    ]
+no_stopwords_results = []
+harvard_only_results = []
+
+for text in ads["OCR_GoogleVision_original"]:
+
+    # Start from the same cleaned word list used in the original analysis.
+    words = clean_ad_text(text)
+
+    # Create the no-stopword version.
+    words_no_stopwords = no_stopwords_version(words)
+
+    category_counts_no_stopwords = count_categories(
+        words_no_stopwords
+    )
+
+    category_ratios_no_stopwords = calculate_category_ratios(
+        words_no_stopwords,
+        category_counts_no_stopwords
+    )
+
+    result_no_stopwords = {
+        "Total_Words": len(words_no_stopwords)
+    }
+
+    for category, count in category_counts_no_stopwords.items():
+        result_no_stopwords[f"{category}_Count"] = count
+
+    for category, ratio in category_ratios_no_stopwords.items():
+        result_no_stopwords[f"{category}_Ratio"] = ratio
+
+    no_stopwords_results.append(
+        result_no_stopwords
+    )
+
+
+    # Create the Harvard-only version.
+    words_harvard_only = harvard_only_version(words)
+
+    category_counts_harvard_only = count_categories(
+        words_harvard_only
+    )
+
+    category_ratios_harvard_only = calculate_category_ratios(
+        words_harvard_only,
+        category_counts_harvard_only
+    )
+
+    result_harvard_only = {
+        "Total_Words": len(words_harvard_only)
+    }
+
+    for category, count in category_counts_harvard_only.items():
+        result_harvard_only[f"{category}_Count"] = count
+
+    for category, ratio in category_ratios_harvard_only.items():
+        result_harvard_only[f"{category}_Ratio"] = ratio
+
+    harvard_only_results.append(
+        result_harvard_only
+    )
+
+
+# Turn the two result lists into dataframes.
+    no_stopwords_results = pd.DataFrame(
+    no_stopwords_results
+)
+
+    harvard_only_results = pd.DataFrame(
+    harvard_only_results
+)
+
+
+# Combine the original ad information with each new sentiment version.
+ads_no_stopwords = pd.concat(
+    [
+        ads.reset_index(drop=True),
+        no_stopwords_results
+    ],
+    axis=1
+)
+
+ads_harvard_only = pd.concat(
+    [
+        ads.reset_index(drop=True),
+        harvard_only_results
+    ],
+    axis=1
+)
+
+
+# Save both new advertisement-level datasets.
+ads_no_stopwords.to_csv(
+    "week_three_ads_with_sentiment_stopwords.csv",
+    index=False
+)
+
+ads_harvard_only.to_csv(
+    "week_three_ads_with_sentiment_harvard_only.csv",
+    index=False
+)
