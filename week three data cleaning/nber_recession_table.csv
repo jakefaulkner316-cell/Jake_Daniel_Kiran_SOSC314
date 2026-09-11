@@ -1,0 +1,269 @@
+Year_Quarter,GDPC1,GDP_Growth,Recession_Status,Recession_Status_Any,Recession_Months,Recession_Majority,Recession_Any
+1948Q1,2239.682,1.5060377474787279,Not Recession,Not Recession,0,False,False
+1948Q2,2276.69,1.6523774357252607,Not Recession,Not Recession,0,False,False
+1948Q3,2289.77,0.5745182699445239,Not Recession,Not Recession,0,False,False
+1948Q4,2292.364,0.1132864872891215,Not Recession,Recession,1,False,True
+1949Q1,2260.807,-1.3766138361970492,Recession,Recession,3,True,True
+1949Q2,2253.128,-0.33965747629053356,Recession,Recession,3,True,True
+1949Q3,2276.424,1.0339403708977013,Recession,Recession,3,True,True
+1949Q4,2257.352,-0.8378052594771535,Not Recession,Recession,1,False,True
+1950Q1,2346.104,3.9316863298236138,Not Recession,Not Recession,0,False,False
+1950Q2,2417.682,3.050930393537543,Not Recession,Not Recession,0,False,False
+1950Q3,2511.127,3.865065794426248,Not Recession,Not Recession,0,False,False
+1950Q4,2559.214,1.9149569097859143,Not Recession,Not Recession,0,False,False
+1951Q1,2593.967,1.3579559974273403,Not Recession,Not Recession,0,False,False
+1951Q2,2638.898,1.7321346031001994,Not Recession,Not Recession,0,False,False
+1951Q3,2693.259,2.0599886770917175,Not Recession,Not Recession,0,False,False
+1951Q4,2699.156,0.21895406271732476,Not Recession,Not Recession,0,False,False
+1952Q1,2727.954,1.0669261057901114,Not Recession,Not Recession,0,False,False
+1952Q2,2733.8,0.21429980124298975,Not Recession,Not Recession,0,False,False
+1952Q3,2753.517,0.7212305216182546,Not Recession,Not Recession,0,False,False
+1952Q4,2843.941,3.283945586680592,Not Recession,Not Recession,0,False,False
+1953Q1,2896.811,1.8590399730515017,Not Recession,Not Recession,0,False,False
+1953Q2,2919.206,0.7730915133917993,Not Recession,Not Recession,0,False,False
+1953Q3,2902.785,-0.5625159718087858,Recession,Recession,2,True,True
+1953Q4,2858.845,-1.5137187218481563,Recession,Recession,3,True,True
+1954Q1,2845.192,-0.4775704873821396,Recession,Recession,3,True,True
+1954Q2,2848.305,0.1094126512375837,Recession,Recession,2,True,True
+1954Q3,2880.482,1.1296894117729606,Not Recession,Not Recession,0,False,False
+1954Q4,2936.852,1.9569641469726173,Not Recession,Not Recession,0,False,False
+1955Q1,3020.746,2.8565961103930393,Not Recession,Not Recession,0,False,False
+1955Q2,3069.91,1.627544983921192,Not Recession,Not Recession,0,False,False
+1955Q3,3111.379,1.3508213595838425,Not Recession,Not Recession,0,False,False
+1955Q4,3130.068,0.600666135498118,Not Recession,Not Recession,0,False,False
+1956Q1,3117.922,-0.38804268789048857,Not Recession,Not Recession,0,False,False
+1956Q2,3143.694,0.8265761619437484,Not Recession,Not Recession,0,False,False
+1956Q3,3140.874,-0.08970338716173254,Not Recession,Not Recession,0,False,False
+1956Q4,3192.57,1.645911297301339,Not Recession,Not Recession,0,False,False
+1957Q1,3213.011,0.6402678719652055,Not Recession,Not Recession,0,False,False
+1957Q2,3205.97,-0.21914023948252925,Not Recession,Not Recession,0,False,False
+1957Q3,3237.386,0.9799218333296889,Not Recession,Recession,1,False,True
+1957Q4,3203.894,-1.0345383590341206,Recession,Recession,3,True,True
+1958Q1,3120.724,-2.595903609794814,Recession,Recession,3,True,True
+1958Q2,3141.224,0.6568988478314663,Not Recession,Recession,1,False,True
+1958Q3,3213.884,2.3131110675329136,Not Recession,Not Recession,0,False,False
+1958Q4,3289.032,2.3382300045676763,Not Recession,Not Recession,0,False,False
+1959Q1,3352.129,1.9184063882625502,Not Recession,Not Recession,0,False,False
+1959Q2,3427.667,2.2534335641617664,Not Recession,Not Recession,0,False,False
+1959Q3,3430.057,0.06972672666276658,Not Recession,Not Recession,0,False,False
+1959Q4,3439.832,0.28498068690987477,Not Recession,Not Recession,0,False,False
+1960Q1,3517.181,2.2486272585405365,Not Recession,Not Recession,0,False,False
+1960Q2,3498.246,-0.5383572810156778,Recession,Recession,2,True,True
+1960Q3,3515.385,0.4899312398270572,Recession,Recession,3,True,True
+1960Q4,3470.278,-1.283131150642114,Recession,Recession,3,True,True
+1961Q1,3493.703,0.6750179668602918,Recession,Recession,2,True,True
+1961Q2,3553.021,1.6978546831256214,Not Recession,Not Recession,0,False,False
+1961Q3,3621.252,1.9203657957552078,Not Recession,Not Recession,0,False,False
+1961Q4,3692.289,1.961669610399941,Not Recession,Not Recession,0,False,False
+1962Q1,3758.147,1.7836631964615934,Not Recession,Not Recession,0,False,False
+1962Q2,3792.149,0.9047543909272315,Not Recession,Not Recession,0,False,False
+1962Q3,3838.776,1.2295666652338832,Not Recession,Not Recession,0,False,False
+1962Q4,3851.421,0.32940187184664627,Not Recession,Not Recession,0,False,False
+1963Q1,3893.482,1.0920904258454156,Not Recession,Not Recession,0,False,False
+1963Q2,3937.183,1.122414332466426,Not Recession,Not Recession,0,False,False
+1963Q3,4023.755,2.1988309915998316,Not Recession,Not Recession,0,False,False
+1963Q4,4050.147,0.6559047456915268,Not Recession,Not Recession,0,False,False
+1964Q1,4135.553,2.108713584963695,Not Recession,Not Recession,0,False,False
+1964Q2,4180.592,1.0890683785215627,Not Recession,Not Recession,0,False,False
+1964Q3,4245.918,1.5626016602433346,Not Recession,Not Recession,0,False,False
+1964Q4,4259.046,0.30919108659188677,Not Recession,Not Recession,0,False,False
+1965Q1,4362.111,2.4199081202691763,Not Recession,Not Recession,0,False,False
+1965Q2,4417.225,1.263470828688229,Not Recession,Not Recession,0,False,False
+1965Q3,4515.427,2.2231604683935924,Not Recession,Not Recession,0,False,False
+1965Q4,4619.458,2.303901712949852,Not Recession,Not Recession,0,False,False
+1966Q1,4731.888,2.433835311415322,Not Recession,Not Recession,0,False,False
+1966Q2,4748.046,0.3414704659112866,Not Recession,Not Recession,0,False,False
+1966Q3,4788.254,0.8468325707038149,Not Recession,Not Recession,0,False,False
+1966Q4,4827.537,0.8204034288907813,Not Recession,Not Recession,0,False,False
+1967Q1,4870.299,0.8857933144789998,Not Recession,Not Recession,0,False,False
+1967Q2,4873.287,0.06135146938617275,Not Recession,Not Recession,0,False,False
+1967Q3,4919.392,0.9460760263042101,Not Recession,Not Recession,0,False,False
+1967Q4,4956.477,0.7538533217112953,Not Recession,Not Recession,0,False,False
+1968Q1,5057.553,2.0392710386833324,Not Recession,Not Recession,0,False,False
+1968Q2,5142.033,1.6703730044944853,Not Recession,Not Recession,0,False,False
+1968Q3,5181.859,0.7745185610438465,Not Recession,Not Recession,0,False,False
+1968Q4,5202.212,0.39277409902507276,Not Recession,Not Recession,0,False,False
+1969Q1,5283.597,1.5644306691076748,Not Recession,Not Recession,0,False,False
+1969Q2,5299.625,0.3033539461847701,Not Recession,Not Recession,0,False,False
+1969Q3,5334.6,0.6599523551194642,Not Recession,Not Recession,0,False,False
+1969Q4,5308.556,-0.48820905035055207,Not Recession,Not Recession,0,False,False
+1970Q1,5300.652,-0.1488917136788115,Recession,Recession,3,True,True
+1970Q2,5308.164,0.14171841501762206,Recession,Recession,3,True,True
+1970Q3,5357.077,0.9214673849564647,Recession,Recession,3,True,True
+1970Q4,5299.672,-1.0715731732062195,Recession,Recession,2,True,True
+1971Q1,5443.619,2.716149225838893,Not Recession,Not Recession,0,False,False
+1971Q2,5473.059,0.5408166883097643,Not Recession,Not Recession,0,False,False
+1971Q3,5518.072,0.8224468254407702,Not Recession,Not Recession,0,False,False
+1971Q4,5531.032,0.234864641128274,Not Recession,Not Recession,0,False,False
+1972Q1,5632.649,1.8372159119672382,Not Recession,Not Recession,0,False,False
+1972Q2,5760.47,2.2692875057543915,Not Recession,Not Recession,0,False,False
+1972Q3,5814.854,0.9440896315751957,Not Recession,Not Recession,0,False,False
+1972Q4,5912.22,1.6744358499800605,Not Recession,Not Recession,0,False,False
+1973Q1,6058.544,2.4749417308557398,Not Recession,Not Recession,0,False,False
+1973Q2,6124.506,1.0887434340660196,Not Recession,Not Recession,0,False,False
+1973Q3,6092.301,-0.5258383288382795,Not Recession,Not Recession,0,False,False
+1973Q4,6150.131,0.9492308406954919,Not Recession,Recession,1,False,True
+1974Q1,6097.258,-0.8597052648146919,Recession,Recession,3,True,True
+1974Q2,6111.751,0.23769701068907523,Recession,Recession,3,True,True
+1974Q3,6053.978,-0.9452773845007756,Recession,Recession,3,True,True
+1974Q4,6030.464,-0.38840577220465855,Recession,Recession,3,True,True
+1975Q1,5957.035,-1.2176343312886084,Recession,Recession,3,True,True
+1975Q2,5999.61,0.7147011894339972,Not Recession,Not Recession,0,False,False
+1975Q3,6102.326,1.712044616233399,Not Recession,Not Recession,0,False,False
+1975Q4,6184.53,1.3470928953975836,Not Recession,Not Recession,0,False,False
+1976Q1,6323.649,2.249467623247048,Not Recession,Not Recession,0,False,False
+1976Q2,6370.025,0.7333740376798126,Not Recession,Not Recession,0,False,False
+1976Q3,6404.895,0.5474075847426096,Not Recession,Not Recession,0,False,False
+1976Q4,6451.177,0.7226035711748402,Not Recession,Not Recession,0,False,False
+1977Q1,6527.703,1.1862331478426524,Not Recession,Not Recession,0,False,False
+1977Q2,6654.466,1.9419235219494402,Not Recession,Not Recession,0,False,False
+1977Q3,6774.457,1.8031649722156429,Not Recession,Not Recession,0,False,False
+1977Q4,6774.592,0.001992779642701059,Not Recession,Not Recession,0,False,False
+1978Q1,6796.26,0.319842139570925,Not Recession,Not Recession,0,False,False
+1978Q2,7058.92,3.864772683799611,Not Recession,Not Recession,0,False,False
+1978Q3,7129.915,1.0057487547670219,Not Recession,Not Recession,0,False,False
+1978Q4,7225.75,1.3441254208500286,Not Recession,Not Recession,0,False,False
+1979Q1,7238.727,0.17959381379095696,Not Recession,Not Recession,0,False,False
+1979Q2,7246.454,0.10674528822540719,Not Recession,Not Recession,0,False,False
+1979Q3,7300.281,0.7428046876444716,Not Recession,Not Recession,0,False,False
+1979Q4,7318.535,0.2500451694941619,Not Recession,Not Recession,0,False,False
+1980Q1,7341.557,0.31457115392630186,Recession,Recession,2,True,True
+1980Q2,7190.289,-2.0604348641575676,Recession,Recession,3,True,True
+1980Q3,7181.743,-0.11885474978821087,Not Recession,Recession,1,False,True
+1980Q4,7315.677,1.8649233201466497,Not Recession,Not Recession,0,False,False
+1981Q1,7459.022,1.9594222106853687,Not Recession,Not Recession,0,False,False
+1981Q2,7403.745,-0.7410757067079277,Not Recession,Not Recession,0,False,False
+1981Q3,7492.405,1.197502074963408,Recession,Recession,2,True,True
+1981Q4,7410.768,-1.0895967316235544,Recession,Recession,3,True,True
+1982Q1,7295.631,-1.5536446424985861,Recession,Recession,3,True,True
+1982Q2,7328.912,0.45617712847594305,Recession,Recession,3,True,True
+1982Q3,7300.896,-0.3822668357868153,Recession,Recession,3,True,True
+1982Q4,7303.817,0.04000878796246443,Recession,Recession,2,True,True
+1983Q1,7400.066,1.3177904101375981,Not Recession,Not Recession,0,False,False
+1983Q2,7568.456,2.2755202453599743,Not Recession,Not Recession,0,False,False
+1983Q3,7719.746,1.9989546084432597,Not Recession,Not Recession,0,False,False
+1983Q4,7880.794,2.0861826282885465,Not Recession,Not Recession,0,False,False
+1984Q1,8034.847,1.9547903421914148,Not Recession,Not Recession,0,False,False
+1984Q2,8173.67,1.72776158649941,Not Recession,Not Recession,0,False,False
+1984Q3,8252.465,0.9640100468944812,Not Recession,Not Recession,0,False,False
+1984Q4,8320.199,0.8207729448110435,Not Recession,Not Recession,0,False,False
+1985Q1,8400.82,0.9689792275400899,Not Recession,Not Recession,0,False,False
+1985Q2,8474.787,0.8804735728179081,Not Recession,Not Recession,0,False,False
+1985Q3,8604.22,1.5272714228687922,Not Recession,Not Recession,0,False,False
+1985Q4,8668.188,0.7434491447220193,Not Recession,Not Recession,0,False,False
+1986Q1,8749.127,0.9337476298391323,Not Recession,Not Recession,0,False,False
+1986Q2,8788.524,0.4502963552820649,Not Recession,Not Recession,0,False,False
+1986Q3,8872.601,0.9566680366350555,Not Recession,Not Recession,0,False,False
+1986Q4,8920.193,0.5363928796076722,Not Recession,Not Recession,0,False,False
+1987Q1,8986.367,0.7418449354178902,Not Recession,Not Recession,0,False,False
+1987Q2,9083.256,1.0781776439800383,Not Recession,Not Recession,0,False,False
+1987Q3,9162.024,0.8671780251486849,Not Recession,Not Recession,0,False,False
+1987Q4,9319.332,1.7169568645530875,Not Recession,Not Recession,0,False,False
+1988Q1,9367.502,0.5168825405082789,Not Recession,Not Recession,0,False,False
+1988Q2,9490.594,1.3140322788294911,Not Recession,Not Recession,0,False,False
+1988Q3,9546.206,0.5859696453140995,Not Recession,Not Recession,0,False,False
+1988Q4,9673.405,1.332456056364184,Not Recession,Not Recession,0,False,False
+1989Q1,9771.725,1.016394950898869,Not Recession,Not Recession,0,False,False
+1989Q2,9846.293,0.7630996574299775,Not Recession,Not Recession,0,False,False
+1989Q3,9919.228,0.7407356250722863,Not Recession,Not Recession,0,False,False
+1989Q4,9938.767,0.19698105538052957,Not Recession,Not Recession,0,False,False
+1990Q1,10047.386,1.0928820446238552,Not Recession,Not Recession,0,False,False
+1990Q2,10083.855,0.36297003021481533,Not Recession,Not Recession,0,False,False
+1990Q3,10090.569,0.06658167932800385,Recession,Recession,2,True,True
+1990Q4,9998.704,-0.9104045569679919,Recession,Recession,3,True,True
+1991Q1,9951.916,-0.4679406451076118,Recession,Recession,3,True,True
+1991Q2,10029.51,0.7796890568610104,Not Recession,Not Recession,0,False,False
+1991Q3,10080.195,0.5053586865160886,Not Recession,Not Recession,0,False,False
+1991Q4,10115.329,0.34854484461859236,Not Recession,Not Recession,0,False,False
+1992Q1,10236.435,1.1972522099874316,Not Recession,Not Recession,0,False,False
+1992Q2,10347.429,1.0843032755055937,Not Recession,Not Recession,0,False,False
+1992Q3,10449.673,0.9881101865980568,Not Recession,Not Recession,0,False,False
+1992Q4,10558.648,1.0428555994048683,Not Recession,Not Recession,0,False,False
+1993Q1,10576.275,0.16694372234020705,Not Recession,Not Recession,0,False,False
+1993Q2,10637.847,0.5821709439287392,Not Recession,Not Recession,0,False,False
+1993Q3,10688.606,0.477154822775705,Not Recession,Not Recession,0,False,False
+1993Q4,10833.987,1.360149302911906,Not Recession,Not Recession,0,False,False
+1994Q1,10939.116,0.9703629882517051,Not Recession,Not Recession,0,False,False
+1994Q2,11087.361,1.355182630845131,Not Recession,Not Recession,0,False,False
+1994Q3,11152.176,0.5845845553328566,Not Recession,Not Recession,0,False,False
+1994Q4,11279.932,1.1455701559946796,Not Recession,Not Recession,0,False,False
+1995Q1,11319.951,0.3547805075420518,Not Recession,Not Recession,0,False,False
+1995Q2,11353.721,0.298322846097121,Not Recession,Not Recession,0,False,False
+1995Q3,11450.31,0.8507255022384363,Not Recession,Not Recession,0,False,False
+1995Q4,11528.067,0.6790820510536255,Not Recession,Not Recession,0,False,False
+1996Q1,11614.418,0.7490501226268043,Not Recession,Not Recession,0,False,False
+1996Q2,11808.14,1.6679441018912833,Not Recession,Not Recession,0,False,False
+1996Q3,11914.063,0.8970337411311258,Not Recession,Not Recession,0,False,False
+1996Q4,12037.775,1.0383695301930063,Not Recession,Not Recession,0,False,False
+1997Q1,12115.472,0.6454431985977394,Not Recession,Not Recession,0,False,False
+1997Q2,12317.221,1.665217830555843,Not Recession,Not Recession,0,False,False
+1997Q3,12471.01,1.2485689750959317,Not Recession,Not Recession,0,False,False
+1997Q4,12577.495,0.8538602727445443,Not Recession,Not Recession,0,False,False
+1998Q1,12703.742,1.0037531320823412,Not Recession,Not Recession,0,False,False
+1998Q2,12821.339,0.9256878799962953,Not Recession,Not Recession,0,False,False
+1998Q3,12982.752,1.258940271371034,Not Recession,Not Recession,0,False,False
+1998Q4,13191.67,1.609196570958149,Not Recession,Not Recession,0,False,False
+1999Q1,13315.597,0.9394337487217186,Not Recession,Not Recession,0,False,False
+1999Q2,13426.748,0.8347428958686454,Not Recession,Not Recession,0,False,False
+1999Q3,13604.771,1.3258832295057754,Not Recession,Not Recession,0,False,False
+1999Q4,13827.98,1.6406670865683814,Not Recession,Not Recession,0,False,False
+2000Q1,13878.147,0.36279340872638066,Not Recession,Not Recession,0,False,False
+2000Q2,14130.908,1.8212878131352639,Not Recession,Not Recession,0,False,False
+2000Q3,14145.312,0.10193258635609048,Not Recession,Not Recession,0,False,False
+2000Q4,14229.765,0.5970387927816567,Not Recession,Not Recession,0,False,False
+2001Q1,14183.12,-0.3277988076401672,Not Recession,Not Recession,0,False,False
+2001Q2,14271.694,0.624502930243831,Recession,Recession,3,True,True
+2001Q3,14214.516,-0.40063919531907466,Recession,Recession,3,True,True
+2001Q4,14253.574,0.2747754478590769,Recession,Recession,2,True,True
+2002Q1,14372.785,0.8363586564324121,Not Recession,Not Recession,0,False,False
+2002Q2,14460.848,0.6127065840058066,Not Recession,Not Recession,0,False,False
+2002Q3,14519.633,0.4065114300350947,Not Recession,Not Recession,0,False,False
+2002Q4,14537.58,0.12360505255195608,Not Recession,Not Recession,0,False,False
+2003Q1,14614.141,0.5266419858050542,Not Recession,Not Recession,0,False,False
+2003Q2,14743.567,0.885621672871495,Not Recession,Not Recession,0,False,False
+2003Q3,14988.782,1.663199956971062,Not Recession,Not Recession,0,False,False
+2003Q4,15162.76,1.160721398176312,Not Recession,Not Recession,0,False,False
+2004Q1,15248.68,0.5666514539569345,Not Recession,Not Recession,0,False,False
+2004Q2,15366.85,0.7749523237421174,Not Recession,Not Recession,0,False,False
+2004Q3,15512.619,0.9485938887930923,Not Recession,Not Recession,0,False,False
+2004Q4,15670.88,1.0202081286209586,Not Recession,Not Recession,0,False,False
+2005Q1,15844.727,1.1093633541958248,Not Recession,Not Recession,0,False,False
+2005Q2,15922.782,0.4926244548107306,Not Recession,Not Recession,0,False,False
+2005Q3,16047.587,0.7838140345072908,Not Recession,Not Recession,0,False,False
+2005Q4,16136.734,0.5555165396517348,Not Recession,Not Recession,0,False,False
+2006Q1,16353.835,1.3453837684874737,Not Recession,Not Recession,0,False,False
+2006Q2,16396.151,0.25875276349554,Not Recession,Not Recession,0,False,False
+2006Q3,16420.738,0.1499559256315619,Not Recession,Not Recession,0,False,False
+2006Q4,16561.866,0.8594498006118778,Not Recession,Not Recession,0,False,False
+2007Q1,16611.69,0.30083566670564554,Not Recession,Not Recession,0,False,False
+2007Q2,16713.314,0.6117619579946387,Not Recession,Not Recession,0,False,False
+2007Q3,16809.587,0.5760257959612325,Not Recession,Not Recession,0,False,False
+2007Q4,16915.191,0.6282367318126258,Not Recession,Not Recession,0,False,False
+2008Q1,16843.003,-0.42676432089947536,Recession,Recession,3,True,True
+2008Q2,16943.291,0.5954282618129358,Recession,Recession,3,True,True
+2008Q3,16854.295,-0.5252580505168858,Recession,Recession,3,True,True
+2008Q4,16485.35,-2.189026595298116,Recession,Recession,3,True,True
+2009Q1,16298.262,-1.1348742974823023,Recession,Recession,3,True,True
+2009Q2,16269.145,-0.1786509506351064,Recession,Recession,3,True,True
+2009Q3,16326.281,0.3511923951750484,Not Recession,Not Recession,0,False,False
+2009Q4,16502.754,1.0809136508185713,Not Recession,Not Recession,0,False,False
+2010Q1,16582.71,0.48450095056860043,Not Recession,Not Recession,0,False,False
+2010Q2,16743.162,0.9675861183124024,Not Recession,Not Recession,0,False,False
+2010Q3,16872.266,0.7710849360473171,Not Recession,Not Recession,0,False,False
+2010Q4,16960.864,0.5251102608268665,Not Recession,Not Recession,0,False,False
+2011Q1,16920.632,-0.23720489710901127,Not Recession,Not Recession,0,False,False
+2011Q2,17035.114,0.6765822931436682,Not Recession,Not Recession,0,False,False
+2011Q3,17031.313,-0.022312735917140447,Not Recession,Not Recession,0,False,False
+2011Q4,17222.583,1.1230490567579965,Not Recession,Not Recession,0,False,False
+2012Q1,17367.01,0.838590819971663,Not Recession,Not Recession,0,False,False
+2012Q2,17444.525,0.4463347461653111,Not Recession,Not Recession,0,False,False
+2012Q3,17469.65,0.14402799732293747,Not Recession,Not Recession,0,False,False
+2012Q4,17489.852,0.11564055376036553,Not Recession,Not Recession,0,False,False
+2013Q1,17662.4,0.9865606638638447,Not Recession,Not Recession,0,False,False
+2013Q2,17709.671,0.26763633481292626,Not Recession,Not Recession,0,False,False
+2013Q3,17860.45,0.851393569084391,Not Recession,Not Recession,0,False,False
+2013Q4,18016.147,0.8717417534272576,Not Recession,Not Recession,0,False,False
+2014Q1,17953.974,-0.34509598528477126,Not Recession,Not Recession,0,False,False
+2014Q2,18185.911,1.2918421292132942,Not Recession,Not Recession,0,False,False
+2014Q3,18406.941,1.2153914093167906,Not Recession,Not Recession,0,False,False
+2014Q4,18500.031,0.5057331362120498,Not Recession,Not Recession,0,False,False
