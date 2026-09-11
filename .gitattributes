@@ -1,2 +1,7 @@
 *.xls filter=lfs diff=lfs merge=lfs -text
 *.csv filter=lfs diff=lfs merge=lfs -text
+
+# Small derived tables: plain text so they render on GitHub.
+nber_recession_table.csv !filter !diff !merge text
+week_three_denominator_comparison.csv !filter !diff !merge text
+week_three_coverage_by_decade.csv !filter !diff !merge text
