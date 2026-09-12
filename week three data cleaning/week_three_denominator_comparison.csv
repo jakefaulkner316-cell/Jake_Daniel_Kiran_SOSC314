@@ -2,12 +2,3 @@ Variant,Mean_Total_Words,Median_Total_Words,Ads_With_Zero_Words,Mean_Positiv_Rat
 All words,189.6335770153119,144.0,10,0.021873540582006117,0.004834835569758895,1.0
 No stopwords,123.4711210725878,93.0,18,0.033578256083780476,0.007212870939195977,0.651
 Harvard only,16.7408648290839,12.0,4083,0.2356486021865207,0.05297424891492579,0.088
-
-# Total_Words stands for every token on the add. 
-# No_stopwords removes the stopwords (i.e., words with not much meaning, like 'the', 'and')
-# Harvard_only keeps JUST the words in the ad that are also in the harvard dictionary.
-# notice that there is a massive decrease: 189 to 123 to 17 (on avg). These are the options of the denominators, which scale the Positiv_ratio. 
-# Each of them answers a different question:
-#  All words: what share of the ad's words are positive?
-#  No stopwords: what share of its content words are positive?
-#  Harvard only: what share of its sentiment-bearing words are positive?
