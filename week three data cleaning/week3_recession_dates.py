@@ -1,5 +1,12 @@
 
-# This script builds the recession variable our advertisement data is
+# This script builds a variable from the official NBER chronology, which is different
+# from the technical rule of two-consecutive-recessionary-quarters we implemented. 
+#As a result, this new form of flagging recessions uncovers two recessionary periods that
+# were not flagged before: 2001 and 1960-61. In total, these two variables (GDPC1 and GDP_Growth, which 
+#are preserved in the final .csv to enable future comparisons) disagree on the definition of 6 quartes out of the 248.
+
+
+#This script builds the recession variable our advertisement data is
 # matched against. It is data construction and measurement. No models
 # are fitted here. We make here a measurement comparison, not a model.
 
