@@ -10,6 +10,6 @@
 
 **Data Feasibility:** 
 
-   - The Master Dataset is relatively small at about 670 MB and is available as a CSV, making it very feasible to process. It will become smaller after filtering by date and possibly advertisement type. OCR quality must still be considered because older advertisements or things like unusual fonts may lead to errors. 
+   - The master dataset is a 670 MB CSV, large enough to require chunked reading or column selection but manageable on a standard machine. Filtering to post-1948 branded advertisements reduces it substantially.
     
    - We acknowledge that using NBER definitions within the economy of the United States can raise questions about external validity, but we clarify that all US global recessions since 1950 matched NBER recessions, capturing the main downturns in a global context (Gose, Sugawara & Torrones, 2010). 
