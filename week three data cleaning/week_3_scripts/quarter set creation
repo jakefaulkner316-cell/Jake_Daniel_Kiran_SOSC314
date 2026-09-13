@@ -80,7 +80,6 @@ quarterly_harvard_only.to_csv(
     index=False
 )
 
-print("\nALL THREE QUARTERLY DATASETS CREATED")
 
 combined_original = quarterly_original.merge(
     economic,
