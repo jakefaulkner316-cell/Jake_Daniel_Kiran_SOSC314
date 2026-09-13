@@ -2,7 +2,7 @@
     
    - The dataset contains individual advertisements with publication dates, advertiser/brand information, and OCR-generated advertisement text. The text was extracted from scanned Economist pages using Google Vision OCR. We use advertisements published from 1948 onward. This comes after the postwar reconversion period, when the U.S. economy had returned to peacetime conditions and NBER recession dates reflect ordinary business cycles rather than wartime mobilisation and demobilisation. Modern quarterly national accounts also begin around this time, which gives us a consistent economic record to match against the advertisement text. This yields 172,219 branded advertisements across 268 quarters, 1948Q1 to 2014Q4.
    
-   - Filters as per period of ruling exchange rate and fiat currency, such as the post-Bretton-Woods period (1973), logically have interference in the transmissibility of a cycle; hence, this is an analysis we shall execute.
+   - The collapse of the Bretton Woods system in 1973 changed how strongly business cycles moved together across countries. We therefore plan to compare the pre-1973 and post-1973 periods separately, to check whether our results depend on the degree of international synchronisation. (Week 4, tentatively)
    
    - Advertisement and sentiment are not independent across sequential quarters (1.g. 2004Q2, 2004Q2-2004Q4), and the quantity of advertisements range from a few hundreds to some thousands. The error term is hence incompatible with OLS homoskedasticity assumptions, and we need robust errors to have an adequate analysis.
 
