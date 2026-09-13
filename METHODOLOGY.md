@@ -1,5 +1,3 @@
-Add methodology document covering sample scope and estimation choices
-
 **Data Treatment:**
     
    - The dataset contains individual advertisements with publication dates, advertiser/brand information, and OCR-generated advertisement text. The text was extracted from scanned Economist pages using Google Vision OCR. We will use advertisements from the post-WWII period, likely beginning around 1948, and try see if there is a significant shift in language sentiment from recession to expansion periods. We chose this date as the re-establishment of peacetime supports more stability (with no exceptional wartime shifts), in a manner that the National Bureau of Economic Research (NBER) could consistently report real GDP on a quarterly basis. 
