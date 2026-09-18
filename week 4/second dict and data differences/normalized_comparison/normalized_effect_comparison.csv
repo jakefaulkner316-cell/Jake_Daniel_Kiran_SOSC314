@@ -1,0 +1,7 @@
+Dictionary,Variant,Quarters,Level_pp,Pos_Diff_pp,Neg_Diff_pp,Pos_Diff_pct_of_level
+Harvard,All words,268,2.2666,-0.0291,0.0021,-1.2829
+Harvard,No stopwords,268,3.4576,-0.0637,-0.0039,-1.843
+Harvard,Dictionary only,268,23.8664,-0.0532,0.1893,-0.2228
+Loughran-McDonald,All words,268,1.2367,-0.0753,0.025,-6.0851
+Loughran-McDonald,No stopwords,268,1.9204,-0.1164,0.0323,-6.0588
+Loughran-McDonald,Dictionary only,268,34.4767,-1.6527,0.6171,-4.7936
