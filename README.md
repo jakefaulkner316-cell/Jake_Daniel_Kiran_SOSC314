@@ -12,5 +12,7 @@ https://inquirer.sites.fas.harvard.edu/spreadsheet_guide.htm
 
 **Final paper possible title:** Advertising Sentiment and the Business Cycle: Evidence from The Economist Advertisements
 
+Week 4 Notes: This week the main focus was comparing the results of the two different dictonaries, and to fix the OCR contamination issue.
+
 AI Note:
 For this project, generative AI, namely ChatGPT and Claude, will be used to help in the process of writing the code. All of the ideas, and tasks that need to be done will be human designed. Ie using knowing that a large file needs to be imported so having AI help figure out how to use Gitlfs.
