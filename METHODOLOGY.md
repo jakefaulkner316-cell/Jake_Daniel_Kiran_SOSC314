@@ -12,4 +12,4 @@
 
    - The master dataset is a 670 MB CSV, large enough to require chunked reading or column selection but manageable on a standard machine. Filtering to post-1948 branded advertisements reduces it substantially.
     
-   - We acknowledge that using NBER definitions within the economy of the United States can raise questions about external validity, but we clarify that all US global recessions since 1950 matched NBER recessions, capturing the main downturns in a global context (Gose, Sugawara & Torrones, 2010). 
+   - Using NBER dates for a publication with international readership raises questions about external validity. Two considerations mitigate this. All four global recessions identified since 1950 (1975, 1982, 1991 and 2009) fall within NBER-dated U.S. recessions (Kose, Sugawara and Terrones, 2020), so the U.S. dating captures the major worldwide downturns. Business cycles were also less synchronised before 1973 than after (Bordo and Helbling, 2010), which motivates the pre and post-1973 comparison described above.
