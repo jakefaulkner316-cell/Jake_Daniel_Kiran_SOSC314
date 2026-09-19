@@ -9,6 +9,8 @@
    - NBER and FRED-GDP flag recessions differently on quarter basis. For NBER, when real GDP peaks in a month, just the next month is counted as recessionary. For FRED, the peak month is already considered recessionary. Further than that, within a quarter, 0 to 3 months can be recessionary, instead of a homogenous and solely label. These different approaches account for flagging recessionary periods that happened out of the two-consecutive-negative-quarters rule.
      
    - We exclude entries flagged with _Brand is Generic_, containing notices not attributed to any brand or promoter.
+     
+   - Vocabulary choices: "_All words_" (counting every token), "_No Stopwords_" (removing English stopwords with empty meaning), and "_Dictionary Only_" (counting just the words that intersect between the advertisement and the dictionary). The average length of ads fall substantially; e.g., from All words to Harvard-only, the mean advertisment length drops from 189.6 to 16.8. When calculating our _"positiv_ratio"_ metric (positive-bearing words/total words), these numbers fit in as denominators; hence, the final indicator can be scaled multiple times solely for arithmetic reasons.
 
 **Data Feasibility:** 
 
