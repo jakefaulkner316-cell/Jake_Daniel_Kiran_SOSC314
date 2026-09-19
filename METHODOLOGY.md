@@ -12,6 +12,8 @@
      
    - Vocabulary choices: "_All words_" (counting every token), "_No Stopwords_" (removing English stopwords with empty meaning), and "_Dictionary Only_" (counting just the words that intersect between the advertisement and the dictionary). The average length of ads fall substantially; e.g., from All words to Harvard-only, the mean advertisment length drops from 189.6 to 16.8. When calculating our _"positiv_ratio"_ metric (positive-bearing words/total words), these numbers fit in as denominators; hence, the final indicator can be scaled multiple times solely for arithmetic reasons.
 
+   - Aggregation: Quarterly values are formed by averaging the per-advertisement ratios, so a 10-word advertisement counts as much as an 8,062-word one. We compare this against pooling, where category words and total words are summed across the quarter before dividing once. The first asks how positive the typical advertisement is; the second asks how positive advertising language is overall.
+
 **Data Feasibility:** 
 
    - The master dataset is a 670 MB CSV, large enough to require chunked reading or column selection but manageable on a standard machine. Filtering to post-1948 branded advertisements reduces it substantially.
