@@ -7,6 +7,8 @@
    - Quarterly sentiment is not independent across adjacent quarters (for example 2004Q1, 2004Q2 and 2004Q3), because campaigns run for months and the same advertisers buy space repeatedly. This violates the OLS assumption of independent errors. Separately, the number of advertisements per quarter ranges from 141 to 1,124, so quarters built from few advertisements are measured less precisely than quarters built from many. This violates the assumption of constant error variance. Both problems affect the standard errors rather than the coefficients, so any eventual test will need standard errors robust to autocorrelation and heteroskedasticity.
 
    - NBER and FRED-GDP flag recessions differently on quarter basis. For NBER, when real GDP peaks in a month, just the next month is counted as recessionary. For FRED, the peak month is already considered recessionary. Further than that, within a quarter, 0 to 3 months can be recessionary, instead of a homogenous and solely label. These different approaches account for flagging recessionary periods that happened out of the two-consecutive-negative-quarters rule.
+     
+   - We exclude entries flagged with _Brand is Generic_, containing notices not attributed to any brand or promoter.
 
 **Data Feasibility:** 
 
