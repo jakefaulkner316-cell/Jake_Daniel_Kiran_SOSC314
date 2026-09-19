@@ -14,6 +14,8 @@
 
    - Aggregation: Quarterly values are formed by averaging the per-advertisement ratios, so a 10-word advertisement counts as much as an 8,062-word one. We compare this against pooling, where category words and total words are summed across the quarter before dividing once. The first asks how positive the typical advertisement is; the second asks how positive advertising language is overall.
 
+   - Long-run drift: Mean positive sentiment varies from 0.0177 in the 1970s to 0.0293 in 2010–2014, a range roughly forty times the raw recession-expansion difference. Recession quarters are unevenly distributed against this trend, with nine in the 1970s and none after 2009. Any test of the business cycle hypothesis must therefore control for this long-run drift.
+
 **Data Feasibility:** 
 
    - The master dataset is a 670 MB CSV, large enough to require chunked reading or column selection but manageable on a standard machine. Filtering to post-1948 branded advertisements reduces it substantially.
