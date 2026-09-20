@@ -410,7 +410,7 @@ plt.tight_layout()
 
 # Save the new time-series graph.
 plt.savefig(
-    "images/week4_quality_filtered_lm_categories_over_time.png",
+    "sentiment comparison images/week4_quality_filtered_lm_categories_over_time.png",
     dpi=300
 )
 
@@ -418,5 +418,162 @@ plt.close()
 
 
 print(
-    "\nCREATED: images/week4_quality_filtered_lm_categories_over_time.png"
+    "\nCREATED: sentiment comparison images/week4_quality_filtered_lm_categories_over_time.png"
+)
+# We need Harvard quarterly sentiment data for comparison.
+# This uses the existing Week 3 Harvard quarterly dataset.
+harvard_quarterly = pd.read_csv(
+    "../week three data cleaning/week_three_quarterly_sentiment.csv"
+)
+
+# Merge Harvard data with the same recession indicator.
+harvard_quarterly = harvard_quarterly.merge(
+    recession_data[
+        [
+            "Year_Quarter",
+            "Recession_Majority"
+        ]
+    ],
+    on="Year_Quarter",
+    how="inner"
+)
+
+
+# ---------------------------------------------------------
+# POSITIVE SENTIMENT GRAPH
+# ---------------------------------------------------------
+
+x = range(len(lm_quarterly))
+
+fig, ax = plt.subplots(figsize=(15, 7))
+
+ax.plot(
+    x,
+    lm_quarterly["Positive_Ratio"] * 100,
+    label="Loughran-McDonald Positive"
+)
+
+ax.plot(
+    x,
+    harvard_quarterly["Positiv_Ratio"] * 100,
+    label="Harvard Positive"
+)
+
+# Shade recession quarters.
+for i in range(len(lm_quarterly)):
+
+    if lm_quarterly["Recession_Majority"].iloc[i]:
+
+        ax.axvspan(
+            i - 0.5,
+            i + 0.5,
+            alpha=0.2
+        )
+
+tick_positions = list(
+    range(
+        0,
+        len(lm_quarterly),
+        20
+    )
+)
+
+tick_labels = (
+    lm_quarterly["Year_Quarter"]
+    .iloc[tick_positions]
+)
+
+ax.set_xticks(tick_positions)
+
+ax.set_xticklabels(
+    tick_labels,
+    rotation=45,
+    ha="right"
+)
+
+ax.set_title(
+    "Positive Advertising Language Over Time\n"
+    "Harvard vs. Loughran-McDonald"
+)
+
+ax.set_xlabel("Quarter")
+
+ax.set_ylabel(
+    "Average Share of Advertisement Words (%)"
+)
+
+ax.legend()
+
+plt.tight_layout()
+
+plt.savefig(
+    "sentiment comparison images/week4_positive_sentiment_over_time_harvard_vs_lm_recessions.png",
+    dpi=300
+)
+
+plt.close()
+
+
+# ---------------------------------------------------------
+# NEGATIVE SENTIMENT GRAPH
+# ---------------------------------------------------------
+
+fig, ax = plt.subplots(figsize=(15, 7))
+
+ax.plot(
+    x,
+    lm_quarterly["Negative_Ratio"] * 100,
+    label="Loughran-McDonald Negative"
+)
+
+ax.plot(
+    x,
+    harvard_quarterly["Negativ_Ratio"] * 100,
+    label="Harvard Negative"
+)
+
+# Shade recession quarters.
+for i in range(len(lm_quarterly)):
+
+    if lm_quarterly["Recession_Majority"].iloc[i]:
+
+        ax.axvspan(
+            i - 0.5,
+            i + 0.5,
+            alpha=0.2
+        )
+
+ax.set_xticks(tick_positions)
+
+ax.set_xticklabels(
+    tick_labels,
+    rotation=45,
+    ha="right"
+)
+
+ax.set_title(
+    "Negative Advertising Language Over Time\n"
+    "Harvard vs. Loughran-McDonald"
+)
+
+ax.set_xlabel("Quarter")
+
+ax.set_ylabel(
+    "Average Share of Advertisement Words (%)"
+)
+
+ax.legend()
+
+plt.tight_layout()
+
+plt.savefig(
+    "sentiment comparison images/week4_negative_sentiment_over_time_harvard_vs_lm_recessions.png",
+    dpi=300
+)
+
+plt.close()
+
+
+print(
+    "\nCREATED POSITIVE AND NEGATIVE HARVARD VS LM TIME-SERIES GRAPHS"
 )
