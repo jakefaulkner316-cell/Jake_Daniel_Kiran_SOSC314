@@ -345,44 +345,78 @@ lm_category_difference.index = (
 # CREATE IMAGE
 # ---------------------------------------------------------
 
-lm_category_difference.plot(
-    kind="bar",
-    figsize=(11, 6)
+# Create a numeric x-axis position for each quarter.
+x = range(len(lm_quarterly))
+
+plt.figure(figsize=(15, 8))
+
+# Plot every Loughran-McDonald category over time.
+for column in lm_ratio_columns:
+
+    label = column.replace(
+        "_Ratio",
+        ""
+    )
+
+    plt.plot(
+        x,
+        lm_quarterly[column] * 100,
+        label=label
+    )
+
+
+# Make the x-axis readable by only displaying every 20th quarter.
+tick_positions = list(
+    range(
+        0,
+        len(lm_quarterly),
+        20
+    )
 )
 
-plt.axhline(
-    y=0,
-    linewidth=1
+tick_labels = (
+    lm_quarterly["Year_Quarter"]
+    .iloc[tick_positions]
 )
 
-plt.title(
-    "Loughran-McDonald Language Changes During Recessions\n"
-    "Using Week 4 Quality-Filtered Advertisements"
-)
-
-plt.xlabel(
-    "Loughran-McDonald Category"
-)
-
-plt.ylabel(
-    "Recession Minus Non-Recession Difference\n"
-    "(Percentage Points)"
-)
 
 plt.xticks(
+    tick_positions,
+    tick_labels,
     rotation=45,
     ha="right"
 )
 
+
+plt.title(
+    "Loughran-McDonald Advertising Language Over Time\n"
+    "Week 4 Quality-Filtered Economist Advertisements"
+)
+
+plt.xlabel(
+    "Quarter"
+)
+
+plt.ylabel(
+    "Average Share of Advertisement Words (%)"
+)
+
+plt.legend(
+    title="Language Category"
+)
+
 plt.tight_layout()
 
+
+# Save the new time-series graph.
 plt.savefig(
-    "images/week4_quality_filtered_lm_recession_categories.png",
+    "images/week4_quality_filtered_lm_categories_over_time.png",
     dpi=300
 )
 
 plt.close()
 
+
 print(
-    "\nCREATED: images/week4_quality_filtered_lm_recession_categories.png"
+    "\nCREATED: images/week4_quality_filtered_lm_categories_over_time.png"
 )
