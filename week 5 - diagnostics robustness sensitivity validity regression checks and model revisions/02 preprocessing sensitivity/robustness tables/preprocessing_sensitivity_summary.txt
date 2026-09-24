@@ -1,0 +1,56 @@
+WEEK 5 DICTIONARY AND PREPROCESSING SENSITIVITY DIAGNOSTIC
+=================================================================
+
+DIAGNOSTIC QUESTION
+-----------------------------------------------------------------
+Do the recession-related sentiment findings remain similar when the sentiment dictionary and preprocessing method change?
+
+DIRECTIONAL ROBUSTNESS
+-----------------------------------------------------------------
+Positive sentiment is lower during recessions under every tested specification: True
+
+Negative sentiment is higher during recessions under every tested specification: False
+
+SPECIFICATION RESULTS
+-----------------------------------------------------------------
+
+Dictionary: Harvard
+Preprocessing: All Words
+Positive recession difference: -0.0291 pp
+Negative recession difference: +0.0021 pp
+
+Dictionary: Harvard
+Preprocessing: No Stopwords
+Positive recession difference: -0.0637 pp
+Negative recession difference: -0.0039 pp
+
+Dictionary: Harvard
+Preprocessing: Dictionary Only
+Positive recession difference: -0.0532 pp
+Negative recession difference: +0.1893 pp
+
+Dictionary: Loughran-McDonald
+Preprocessing: All Words
+Positive recession difference: -0.0753 pp
+Negative recession difference: +0.0250 pp
+
+Dictionary: Loughran-McDonald
+Preprocessing: No Stopwords
+Positive recession difference: -0.1164 pp
+Negative recession difference: +0.0323 pp
+
+Dictionary: Loughran-McDonald
+Preprocessing: Dictionary Only
+Positive recession difference: -1.6527 pp
+Negative recession difference: +0.6171 pp
+
+INTERPRETATION
+-----------------------------------------------------------------
+
+The positive-sentiment result is directionally robust because every tested combination of dictionary and preprocessing method shows lower positive advertising language during recession quarters.
+
+However, the magnitude of the positive effect changes across specifications, meaning the estimated effect size is sensitive to how sentiment is measured.
+
+Negative sentiment is less stable than positive sentiment. Harvard changes direction depending on preprocessing, while Loughran-McDonald shows higher negative language during recessions across all three preprocessing methods.
+
+The dictionary-only specification produces much larger percentage-point effects because the denominator contains only words recognized by the dictionary. These results are therefore on a different scale from the all-words and no-stopwords specifications.

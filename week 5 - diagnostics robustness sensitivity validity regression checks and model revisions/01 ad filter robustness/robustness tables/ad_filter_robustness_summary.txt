@@ -1,0 +1,65 @@
+WEEK 5 AD FILTER ROBUSTNESS DIAGNOSTIC
+============================================================
+
+Full corpus: 172,219 advertisements
+Quality-filtered corpus: 168,916 advertisements
+Advertisements removed: 3,303
+Percent removed: 1.92%
+
+ROBUSTNESS RESULTS
+------------------------------------------------------------
+
+Dictionary: Harvard
+Aggregation: Average of ratios
+Positive recession effect before filtering: -0.0291 pp
+Positive recession effect after filtering: -0.0243 pp
+Change caused by filtering: +0.0048 pp
+Positive effect keeps same direction: True
+Negative recession effect before filtering: +0.0021 pp
+Negative recession effect after filtering: -0.0003 pp
+Change caused by filtering: -0.0024 pp
+Negative effect keeps same direction: False
+
+Dictionary: Harvard
+Aggregation: Pooled words
+Positive recession effect before filtering: -0.0423 pp
+Positive recession effect after filtering: -0.0468 pp
+Change caused by filtering: -0.0045 pp
+Positive effect keeps same direction: True
+Negative recession effect before filtering: -0.0016 pp
+Negative recession effect after filtering: -0.0015 pp
+Change caused by filtering: +0.0001 pp
+Negative effect keeps same direction: True
+
+Dictionary: Loughran-McDonald
+Aggregation: Average of ratios
+Positive recession effect before filtering: -0.0753 pp
+Positive recession effect after filtering: -0.0742 pp
+Change caused by filtering: +0.0011 pp
+Positive effect keeps same direction: True
+Negative recession effect before filtering: +0.0250 pp
+Negative recession effect after filtering: +0.0254 pp
+Change caused by filtering: +0.0004 pp
+Negative effect keeps same direction: True
+
+Dictionary: Loughran-McDonald
+Aggregation: Pooled words
+Positive recession effect before filtering: -0.0334 pp
+Positive recession effect after filtering: -0.0384 pp
+Change caused by filtering: -0.0050 pp
+Positive effect keeps same direction: True
+Negative recession effect before filtering: +0.0267 pp
+Negative recession effect after filtering: +0.0268 pp
+Change caused by filtering: +0.0001 pp
+Negative effect keeps same direction: True
+
+INTERPRETATION
+------------------------------------------------------------
+
+The quality filter removes 3,303 advertisements, or roughly 1.9 percent of the full corpus.
+
+The main positive-sentiment recession result remains negative across both dictionaries and both aggregation methods after filtering. This indicates that the finding of lower positive advertising language during recessions is robust to the Week 4 advertisement-quality filters.
+
+The Loughran-McDonald results change very little after filtering, indicating particularly strong stability to the quality-filter decision.
+
+Harvard negative sentiment using the average-of-ratios method changes from a very small positive estimate to a very small negative estimate. Because both values are extremely close to zero, this should be interpreted as an unstable near-zero relationship rather than a strong substantive reversal.
