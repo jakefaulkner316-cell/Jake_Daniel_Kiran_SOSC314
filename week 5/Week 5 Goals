@@ -1,0 +1,21 @@
+Week 5 Goals: Diagnostics, Robustness, and Validity
+Re-run the core sentiment analysis using the newest quality-filtered advertisement dataset
+Fits: Revisions informed by diagnostic findings
+Compare Harvard General Inquirer and Loughran-McDonald sentiment results
+Fits: Robustness or sensitivity checks
+Test sensitivity to preprocessing choices, including all words, stopwords removed, and dictionary-only denominators
+Fits: Diagnostics appropriate to the chosen methods and robustness/sensitivity checks
+Compare results before and after advertisement-quality filtering
+Fits: Robustness or sensitivity checks and discussion of validity/bias
+Re-run the main regression models using the updated dataset
+Fits: Revisions informed by diagnostic findings
+Compare ordinary and heteroskedasticity-robust standard errors
+Fits: Diagnostics appropriate to the chosen methods and robustness checks
+Document changes in coefficient direction, magnitude, standard errors, and interpretation across specifications
+Fits: Robustness or sensitivity checks
+Evaluate validity concerns and potential failure modes
+Fits: Discussion of validity, bias, or failure modes
+Explore whether an unsupervised topic model adds useful information beyond the dictionary analysis
+Fits: Diagnostics appropriate to the chosen methods
+Use the diagnostic results to revise the analysis where necessary
+Fits: Revisions informed by diagnostic findings
