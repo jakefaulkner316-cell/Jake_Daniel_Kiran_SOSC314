@@ -1,0 +1,86 @@
+WEEK 5 REGRESSION MODEL REVISION
+======================================================================
+
+MODELS TESTED
+----------------------------------------------------------------------
+Model 1: Sentiment = Recession
+Model 2: Sentiment = Recession + GDP Growth
+Model 3: Sentiment = GDP Growth
+
+All inference uses HAC/Newey-West standard errors with four quarterly lags.
+
+RECESSION COEFFICIENT COMPARISON
+----------------------------------------------------------------------
+
+Dictionary: Harvard
+Outcome: Pos
+Model: Model 1: Recession only
+Recession coefficient: -0.0291 pp
+HAC standard error: 0.1203 pp
+HAC p-value: 0.808911
+R-squared: 0.000742
+
+Dictionary: Harvard
+Outcome: Pos
+Model: Model 2: Recession + GDP Growth
+Recession coefficient: -0.1506 pp
+HAC standard error: 0.1261 pp
+HAC p-value: 0.233388
+R-squared: 0.029739
+
+Dictionary: Harvard
+Outcome: Neg
+Model: Model 1: Recession only
+Recession coefficient: +0.0021 pp
+HAC standard error: 0.0187 pp
+HAC p-value: 0.910156
+R-squared: 0.000074
+
+Dictionary: Harvard
+Outcome: Neg
+Model: Model 2: Recession + GDP Growth
+Recession coefficient: +0.0086 pp
+HAC standard error: 0.0230 pp
+HAC p-value: 0.708999
+R-squared: 0.001635
+
+Dictionary: Loughran-McDonald
+Outcome: Pos
+Model: Model 1: Recession only
+Recession coefficient: -0.0753 pp
+HAC standard error: 0.0874 pp
+HAC p-value: 0.389700
+R-squared: 0.008077
+
+Dictionary: Loughran-McDonald
+Outcome: Pos
+Model: Model 2: Recession + GDP Growth
+Recession coefficient: -0.2023 pp
+HAC standard error: 0.0903 pp
+HAC p-value: 0.025940
+R-squared: 0.059646
+
+Dictionary: Loughran-McDonald
+Outcome: Neg
+Model: Model 1: Recession only
+Recession coefficient: +0.0250 pp
+HAC standard error: 0.0196 pp
+HAC p-value: 0.204058
+R-squared: 0.012759
+
+Dictionary: Loughran-McDonald
+Outcome: Neg
+Model: Model 2: Recession + GDP Growth
+Recession coefficient: +0.0180 pp
+HAC standard error: 0.0227 pp
+HAC p-value: 0.428521
+R-squared: 0.015007
+
+INTERPRETATION GUIDE
+----------------------------------------------------------------------
+
+If the recession coefficient changes substantially after GDP growth is added, part of the original recession association may reflect broader changes in economic growth rather than recession status alone.
+
+If the coefficient remains similar, the recession relationship is more robust to controlling for GDP growth.
+
+The GDP-only model helps determine whether sentiment responds more directly to continuous changes in economic growth rather than to the binary recession classification.

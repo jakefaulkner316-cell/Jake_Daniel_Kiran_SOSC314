@@ -1,0 +1,384 @@
+WEEK 5 INFLATION AND TIME TREND MODEL REVISION
+===========================================================================
+
+PURPOSE
+---------------------------------------------------------------------------
+Test whether recession and GDP-growth sentiment relationships remain similar after accounting for inflation and long-run time trends.
+
+IMPORTANT SAMPLE LIMITATION
+---------------------------------------------------------------------------
+World Bank U.S. CPI inflation begins in 1990. Therefore, inflation models use a shorter sample than the full historical regression.
+
+To separate the effect of adding controls from the effect of changing the sample, recession-only models are estimated on both the full and restricted samples.
+
+MODEL RESULTS
+---------------------------------------------------------------------------
+
+Dictionary: Harvard
+Outcome: Pos
+Sample: Full sample
+Model: Recession only
+Variable: Recession
+Coefficient: -0.0291
+HAC standard error: 0.1203
+HAC p-value: 0.808911
+R-squared: 0.000742
+
+Dictionary: Harvard
+Outcome: Pos
+Sample: Restricted inflation sample
+Model: Recession only
+Variable: Recession
+Coefficient: +0.1586
+HAC standard error: 0.1617
+HAC p-value: 0.328860
+R-squared: 0.028151
+
+Dictionary: Harvard
+Outcome: Pos
+Sample: Restricted inflation sample
+Model: Recession + Inflation + Time Trend
+Variable: Recession
+Coefficient: +0.1459
+HAC standard error: 0.0702
+HAC p-value: 0.040285
+R-squared: 0.719881
+
+Dictionary: Harvard
+Outcome: Pos
+Sample: Restricted inflation sample
+Model: Recession + Inflation + Time Trend
+Variable: Inflation_CPI_percent
+Coefficient: +0.0203
+HAC standard error: 0.0224
+HAC p-value: 0.365634
+R-squared: 0.719881
+
+Dictionary: Harvard
+Outcome: Pos
+Sample: Restricted inflation sample
+Model: Recession + Inflation + Time Trend
+Variable: Time_Trend
+Coefficient: +0.0092
+HAC standard error: 0.0006
+HAC p-value: 0.000000
+R-squared: 0.719881
+
+Dictionary: Harvard
+Outcome: Pos
+Sample: Restricted inflation sample
+Model: GDP Growth only
+Variable: GDP_Growth
+Coefficient: -0.1167
+HAC standard error: 0.0569
+HAC p-value: 0.043137
+R-squared: 0.056349
+
+Dictionary: Harvard
+Outcome: Pos
+Sample: Restricted inflation sample
+Model: GDP Growth + Inflation + Time Trend
+Variable: GDP_Growth
+Coefficient: -0.0370
+HAC standard error: 0.0358
+HAC p-value: 0.303708
+R-squared: 0.702280
+
+Dictionary: Harvard
+Outcome: Pos
+Sample: Restricted inflation sample
+Model: GDP Growth + Inflation + Time Trend
+Variable: Inflation_CPI_percent
+Coefficient: +0.0247
+HAC standard error: 0.0279
+HAC p-value: 0.379041
+R-squared: 0.702280
+
+Dictionary: Harvard
+Outcome: Pos
+Sample: Restricted inflation sample
+Model: GDP Growth + Inflation + Time Trend
+Variable: Time_Trend
+Coefficient: +0.0092
+HAC standard error: 0.0007
+HAC p-value: 0.000000
+R-squared: 0.702280
+
+Dictionary: Harvard
+Outcome: Neg
+Sample: Full sample
+Model: Recession only
+Variable: Recession
+Coefficient: +0.0021
+HAC standard error: 0.0187
+HAC p-value: 0.910156
+R-squared: 0.000074
+
+Dictionary: Harvard
+Outcome: Neg
+Sample: Restricted inflation sample
+Model: Recession only
+Variable: Recession
+Coefficient: -0.0147
+HAC standard error: 0.0186
+HAC p-value: 0.432082
+R-squared: 0.002931
+
+Dictionary: Harvard
+Outcome: Neg
+Sample: Restricted inflation sample
+Model: Recession + Inflation + Time Trend
+Variable: Recession
+Coefficient: -0.0058
+HAC standard error: 0.0199
+HAC p-value: 0.772247
+R-squared: 0.166973
+
+Dictionary: Harvard
+Outcome: Neg
+Sample: Restricted inflation sample
+Model: Recession + Inflation + Time Trend
+Variable: Inflation_CPI_percent
+Coefficient: -0.0142
+HAC standard error: 0.0079
+HAC p-value: 0.077853
+R-squared: 0.166973
+
+Dictionary: Harvard
+Outcome: Neg
+Sample: Restricted inflation sample
+Model: Recession + Inflation + Time Trend
+Variable: Time_Trend
+Coefficient: +0.0009
+HAC standard error: 0.0004
+HAC p-value: 0.018098
+R-squared: 0.166973
+
+Dictionary: Harvard
+Outcome: Neg
+Sample: Restricted inflation sample
+Model: GDP Growth only
+Variable: GDP_Growth
+Coefficient: -0.0016
+HAC standard error: 0.0105
+HAC p-value: 0.878381
+R-squared: 0.000130
+
+Dictionary: Harvard
+Outcome: Neg
+Sample: Restricted inflation sample
+Model: GDP Growth + Inflation + Time Trend
+Variable: GDP_Growth
+Coefficient: +0.0019
+HAC standard error: 0.0102
+HAC p-value: 0.851134
+R-squared: 0.166704
+
+Dictionary: Harvard
+Outcome: Neg
+Sample: Restricted inflation sample
+Model: GDP Growth + Inflation + Time Trend
+Variable: Inflation_CPI_percent
+Coefficient: -0.0142
+HAC standard error: 0.0081
+HAC p-value: 0.082054
+R-squared: 0.166704
+
+Dictionary: Harvard
+Outcome: Neg
+Sample: Restricted inflation sample
+Model: GDP Growth + Inflation + Time Trend
+Variable: Time_Trend
+Coefficient: +0.0009
+HAC standard error: 0.0004
+HAC p-value: 0.018496
+R-squared: 0.166704
+
+Dictionary: Loughran-McDonald
+Outcome: Pos
+Sample: Full sample
+Model: Recession only
+Variable: Recession
+Coefficient: -0.0753
+HAC standard error: 0.0874
+HAC p-value: 0.389700
+R-squared: 0.008077
+
+Dictionary: Loughran-McDonald
+Outcome: Pos
+Sample: Restricted inflation sample
+Model: Recession only
+Variable: Recession
+Coefficient: +0.0581
+HAC standard error: 0.0814
+HAC p-value: 0.477165
+R-squared: 0.010638
+
+Dictionary: Loughran-McDonald
+Outcome: Pos
+Sample: Restricted inflation sample
+Model: Recession + Inflation + Time Trend
+Variable: Recession
+Coefficient: +0.0336
+HAC standard error: 0.0266
+HAC p-value: 0.208665
+R-squared: 0.506815
+
+Dictionary: Loughran-McDonald
+Outcome: Pos
+Sample: Restricted inflation sample
+Model: Recession + Inflation + Time Trend
+Variable: Inflation_CPI_percent
+Coefficient: +0.0390
+HAC standard error: 0.0138
+HAC p-value: 0.005739
+R-squared: 0.506815
+
+Dictionary: Loughran-McDonald
+Outcome: Pos
+Sample: Restricted inflation sample
+Model: Recession + Inflation + Time Trend
+Variable: Time_Trend
+Coefficient: +0.0050
+HAC standard error: 0.0005
+HAC p-value: 0.000000
+R-squared: 0.506815
+
+Dictionary: Loughran-McDonald
+Outcome: Pos
+Sample: Restricted inflation sample
+Model: GDP Growth only
+Variable: GDP_Growth
+Coefficient: -0.0738
+HAC standard error: 0.0310
+HAC p-value: 0.019189
+R-squared: 0.063559
+
+Dictionary: Loughran-McDonald
+Outcome: Pos
+Sample: Restricted inflation sample
+Model: GDP Growth + Inflation + Time Trend
+Variable: GDP_Growth
+Coefficient: -0.0252
+HAC standard error: 0.0188
+HAC p-value: 0.183986
+R-squared: 0.510042
+
+Dictionary: Loughran-McDonald
+Outcome: Pos
+Sample: Restricted inflation sample
+Model: GDP Growth + Inflation + Time Trend
+Variable: Inflation_CPI_percent
+Coefficient: +0.0370
+HAC standard error: 0.0145
+HAC p-value: 0.012261
+R-squared: 0.510042
+
+Dictionary: Loughran-McDonald
+Outcome: Pos
+Sample: Restricted inflation sample
+Model: GDP Growth + Inflation + Time Trend
+Variable: Time_Trend
+Coefficient: +0.0049
+HAC standard error: 0.0005
+HAC p-value: 0.000000
+R-squared: 0.510042
+
+Dictionary: Loughran-McDonald
+Outcome: Neg
+Sample: Full sample
+Model: Recession only
+Variable: Recession
+Coefficient: +0.0250
+HAC standard error: 0.0196
+HAC p-value: 0.204058
+R-squared: 0.012759
+
+Dictionary: Loughran-McDonald
+Outcome: Neg
+Sample: Restricted inflation sample
+Model: Recession only
+Variable: Recession
+Coefficient: +0.0382
+HAC standard error: 0.0325
+HAC p-value: 0.242706
+R-squared: 0.024067
+
+Dictionary: Loughran-McDonald
+Outcome: Neg
+Sample: Restricted inflation sample
+Model: Recession + Inflation + Time Trend
+Variable: Recession
+Coefficient: +0.0519
+HAC standard error: 0.0226
+HAC p-value: 0.023533
+R-squared: 0.238155
+
+Dictionary: Loughran-McDonald
+Outcome: Neg
+Sample: Restricted inflation sample
+Model: Recession + Inflation + Time Trend
+Variable: Inflation_CPI_percent
+Coefficient: -0.0219
+HAC standard error: 0.0091
+HAC p-value: 0.017851
+R-squared: 0.238155
+
+Dictionary: Loughran-McDonald
+Outcome: Neg
+Sample: Restricted inflation sample
+Model: Recession + Inflation + Time Trend
+Variable: Time_Trend
+Coefficient: +0.0007
+HAC standard error: 0.0003
+HAC p-value: 0.013498
+R-squared: 0.238155
+
+Dictionary: Loughran-McDonald
+Outcome: Neg
+Sample: Restricted inflation sample
+Model: GDP Growth only
+Variable: GDP_Growth
+Coefficient: -0.0234
+HAC standard error: 0.0116
+HAC p-value: 0.046704
+R-squared: 0.033467
+
+Dictionary: Loughran-McDonald
+Outcome: Neg
+Sample: Restricted inflation sample
+Model: GDP Growth + Inflation + Time Trend
+Variable: GDP_Growth
+Coefficient: -0.0246
+HAC standard error: 0.0097
+HAC p-value: 0.013339
+R-squared: 0.228829
+
+Dictionary: Loughran-McDonald
+Outcome: Neg
+Sample: Restricted inflation sample
+Model: GDP Growth + Inflation + Time Trend
+Variable: Inflation_CPI_percent
+Coefficient: -0.0224
+HAC standard error: 0.0098
+HAC p-value: 0.025224
+R-squared: 0.228829
+
+Dictionary: Loughran-McDonald
+Outcome: Neg
+Sample: Restricted inflation sample
+Model: GDP Growth + Inflation + Time Trend
+Variable: Time_Trend
+Coefficient: +0.0006
+HAC standard error: 0.0003
+HAC p-value: 0.059533
+R-squared: 0.228829
+
+INTERPRETATION GUIDE
+---------------------------------------------------------------------------
+
+First compare the full-sample recession model with the restricted-sample recession model. This reveals whether changing the historical period alone changes the estimated relationship.
+
+Then compare the restricted recession-only model with the recession + inflation + time-trend model. This shows whether the recession association changes after controlling for inflation and long-run temporal changes.
+
+Similarly, compare GDP-growth-only results with the GDP growth + inflation + time-trend specification.
