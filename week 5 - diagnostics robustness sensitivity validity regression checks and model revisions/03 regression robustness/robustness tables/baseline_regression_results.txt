@@ -1,0 +1,42 @@
+WEEK 5 BASELINE RECESSION-SENTIMENT REGRESSIONS
+======================================================================
+
+MODEL
+Sentiment = Intercept + Recession + Error
+
+Recession is coded as:
+1 = recession quarter
+0 = non-recession quarter
+
+Dictionary: Harvard
+Outcome: Pos
+Recession coefficient: -0.0291 pp
+OLS standard error: 0.0655 pp
+p-value: 0.657003
+95% confidence interval: [-0.1581, +0.0999] pp
+R-squared: 0.000742
+
+Dictionary: Harvard
+Outcome: Neg
+Recession coefficient: +0.0021 pp
+OLS standard error: 0.0150 pp
+p-value: 0.888648
+95% confidence interval: [-0.0275, +0.0317] pp
+R-squared: 0.000074
+
+Dictionary: Loughran-McDonald
+Outcome: Pos
+Recession coefficient: -0.0753 pp
+OLS standard error: 0.0512 pp
+p-value: 0.142288
+95% confidence interval: [-0.1760, +0.0254] pp
+R-squared: 0.008077
+
+Dictionary: Loughran-McDonald
+Outcome: Neg
+Recession coefficient: +0.0250 pp
+OLS standard error: 0.0135 pp
+p-value: 0.064824
+95% confidence interval: [-0.0015, +0.0515] pp
+R-squared: 0.012759
+
