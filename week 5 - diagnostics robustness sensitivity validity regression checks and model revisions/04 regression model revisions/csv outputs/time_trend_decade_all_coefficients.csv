@@ -1,0 +1,481 @@
+Dictionary,Outcome,Aggregation,Recession_Definition,Model_Code,Model,N_Quarters,R_squared,Durbin_Watson,Variable,Coefficient,HAC_SE,HAC_p_value,CI_low,CI_high
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),A,A. Recession only,268,0.000742,0.19393,const,2.281243,0.050986,0.0,2.180855,2.38163
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),A,A. Recession only,268,0.000742,0.19393,Recession,-0.029125,0.120317,0.808911,-0.266021,0.20777
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),B,B. + linear time trend,268,0.289559,0.27041,const,1.91185,0.103541,0.0,1.707982,2.115718
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),B,B. + linear time trend,268,0.289559,0.27041,Recession,0.02006,0.098306,0.838465,-0.1735,0.213621
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),B,B. + linear time trend,268,0.289559,0.27041,Time_Trend,0.002709,0.000599,9e-06,0.001529,0.003889
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.739795,0.795587,const,2.488215,0.079474,0.0,2.331717,2.644712
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.739795,0.795587,Recession,0.014824,0.053315,0.781201,-0.090162,0.119809
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.739795,0.795587,Decade_1950s,-0.18624,0.088875,0.037096,-0.361251,-0.01123
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.739795,0.795587,Decade_1960s,-0.500641,0.109606,8e-06,-0.716474,-0.284809
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.739795,0.795587,Decade_1970s,-0.717583,0.089592,0.0,-0.894006,-0.541161
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.739795,0.795587,Decade_1980s,-0.298812,0.094637,0.00178,-0.485169,-0.112456
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.739795,0.795587,Decade_1990s,-0.160438,0.082504,0.052905,-0.322902,0.002026
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.739795,0.795587,Decade_2000s,0.212376,0.108664,0.051726,-0.001601,0.426353
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.739795,0.795587,Decade_2010s,0.436961,0.08489,1e-06,0.269798,0.604125
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.339135,0.291904,const,1.877623,0.102562,0.0,1.675676,2.079571
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.339135,0.291904,Recession,0.08309,0.176555,0.638301,-0.26455,0.430731
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.339135,0.291904,Time_Trend,0.004403,0.000998,1.5e-05,0.002438,0.006368
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.339135,0.291904,Post1973,-0.310961,0.17209,0.07191,-0.64981,0.027888
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.339135,0.291904,Recession_x_Post1973,-0.073814,0.198496,0.710293,-0.464658,0.31703
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.752978,0.840805,const,2.467359,0.077124,0.0,2.315484,2.619235
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.752978,0.840805,Recession,0.070438,0.057529,0.221926,-0.04285,0.183726
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.752978,0.840805,Decade_1950s,-0.173727,0.086758,0.046288,-0.344573,-0.002881
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.752978,0.840805,Decade_1960s,-0.485348,0.104479,5e-06,-0.691092,-0.279603
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.752978,0.840805,Decade_1970s,-0.883236,0.076424,0.0,-1.033732,-0.732739
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.752978,0.840805,Decade_1980s,-0.536003,0.103832,0.0,-0.740473,-0.331532
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.752978,0.840805,Decade_1990s,-0.400248,0.092114,2e-05,-0.581642,-0.218853
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.752978,0.840805,Decade_2000s,-0.024291,0.113798,0.831144,-0.248387,0.199806
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.752978,0.840805,Decade_2010s,0.19558,0.094228,0.038925,0.010023,0.381137
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.752978,0.840805,Post1973,0.262237,0.057638,8e-06,0.148734,0.37574
+Harvard,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.752978,0.840805,Recession_x_Post1973,-0.076569,0.095467,0.423268,-0.264565,0.111428
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),A,A. Recession only,268,7.4e-05,1.034057,const,0.494213,0.009109,0.0,0.476278,0.512149
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),A,A. Recession only,268,7.4e-05,1.034057,Recession,0.002109,0.018669,0.910156,-0.03465,0.038867
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),B,B. + linear time trend,268,0.060581,1.099566,const,0.533029,0.020757,0.0,0.49216,0.573899
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),B,B. + linear time trend,268,0.060581,1.099566,Recession,-0.00306,0.016381,0.851968,-0.035313,0.029193
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),B,B. + linear time trend,268,0.060581,1.099566,Time_Trend,-0.000285,0.00014,0.04256,-0.00056,-1e-05
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.460381,1.936741,const,0.701783,0.012377,0.0,0.67741,0.726156
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.460381,1.936741,Recession,0.001045,0.008891,0.906524,-0.016462,0.018552
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.460381,1.936741,Decade_1950s,-0.126023,0.014099,0.0,-0.153785,-0.09826
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.460381,1.936741,Decade_1960s,-0.221898,0.016691,0.0,-0.254765,-0.189032
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.460381,1.936741,Decade_1970s,-0.246097,0.015589,0.0,-0.276794,-0.215399
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.460381,1.936741,Decade_1980s,-0.273526,0.013027,0.0,-0.299177,-0.247875
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.460381,1.936741,Decade_1990s,-0.239454,0.015664,0.0,-0.2703,-0.208609
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.460381,1.936741,Decade_2000s,-0.212009,0.015411,0.0,-0.242356,-0.181662
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.460381,1.936741,Decade_2010s,-0.141186,0.026083,0.0,-0.192548,-0.089823
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.118028,1.167908,const,0.523368,0.021176,0.0,0.481672,0.565064
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.118028,1.167908,Recession,0.021437,0.035329,0.544523,-0.048127,0.091001
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.118028,1.167908,Time_Trend,0.000119,0.00022,0.588232,-0.000314,0.000552
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.118028,1.167908,Post1973,-0.071768,0.030599,0.019746,-0.132018,-0.011519
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.118028,1.167908,Recession_x_Post1973,-0.033357,0.037757,0.3778,-0.107702,0.040988
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460543,1.936426,const,0.70058,0.013091,0.0,0.674801,0.72636
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460543,1.936426,Recession,0.004252,0.013919,0.760274,-0.023158,0.031661
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460543,1.936426,Decade_1950s,-0.125301,0.014047,0.0,-0.152963,-0.097639
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460543,1.936426,Decade_1960s,-0.221017,0.017292,0.0,-0.255068,-0.186965
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460543,1.936426,Decade_1970s,-0.248852,0.014771,0.0,-0.27794,-0.219765
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460543,1.936426,Decade_1980s,-0.277481,0.020569,0.0,-0.317986,-0.236976
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460543,1.936426,Decade_1990s,-0.243638,0.022213,0.0,-0.287381,-0.199895
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460543,1.936426,Decade_2000s,-0.215918,0.022211,0.0,-0.259657,-0.17218
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460543,1.936426,Decade_2010s,-0.145507,0.030432,3e-06,-0.205435,-0.085579
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460543,1.936426,Post1973,0.005524,0.016599,0.739587,-0.027164,0.038212
+Harvard,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460543,1.936426,Recession_x_Post1973,-0.005038,0.017918,0.778822,-0.040322,0.030247
+Harvard,Pos,Average of ratios,Any month (48 quarters),A,A. Recession only,268,0.000571,0.194525,const,2.281014,0.051898,0.0,2.178831,2.383198
+Harvard,Pos,Average of ratios,Any month (48 quarters),A,A. Recession only,268,0.000571,0.194525,Recession,-0.02421,0.11287,0.830326,-0.246442,0.198022
+Harvard,Pos,Average of ratios,Any month (48 quarters),B,B. + linear time trend,268,0.29197,0.269049,const,1.901413,0.10283,0.0,1.698945,2.103882
+Harvard,Pos,Average of ratios,Any month (48 quarters),B,B. + linear time trend,268,0.29197,0.269049,Recession,0.053778,0.101228,0.595685,-0.145535,0.253091
+Harvard,Pos,Average of ratios,Any month (48 quarters),B,B. + linear time trend,268,0.29197,0.269049,Time_Trend,0.002739,0.000596,7e-06,0.001566,0.003912
+Harvard,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.739923,0.793747,const,2.482088,0.081461,0.0,2.321677,2.642498
+Harvard,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.739923,0.793747,Recession,0.018697,0.052781,0.723447,-0.085238,0.122632
+Harvard,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.739923,0.793747,Decade_1950s,-0.181629,0.0886,0.041372,-0.356097,-0.007161
+Harvard,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.739923,0.793747,Decade_1960s,-0.494902,0.110448,1.1e-05,-0.712393,-0.277411
+Harvard,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.739923,0.793747,Decade_1970s,-0.712795,0.088792,0.0,-0.887641,-0.537949
+Harvard,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.739923,0.793747,Decade_1980s,-0.293928,0.096612,0.002589,-0.484172,-0.103683
+Harvard,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.739923,0.793747,Decade_1990s,-0.154602,0.084002,0.066846,-0.320015,0.010812
+Harvard,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.739923,0.793747,Decade_2000s,0.217631,0.112065,0.05322,-0.003043,0.438306
+Harvard,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.739923,0.793747,Decade_2010s,0.443088,0.086786,1e-06,0.272192,0.613985
+Harvard,Pos,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.351517,0.294299,const,1.849237,0.103898,0.0,1.64466,2.053814
+Harvard,Pos,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.351517,0.294299,Recession,0.190469,0.177439,0.28406,-0.158913,0.539852
+Harvard,Pos,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.351517,0.294299,Time_Trend,0.004454,0.001002,1.3e-05,0.002481,0.006427
+Harvard,Pos,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.351517,0.294299,Post1973,-0.289536,0.1731,0.095586,-0.630375,0.051303
+Harvard,Pos,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.351517,0.294299,Recession_x_Post1973,-0.196534,0.196468,0.318068,-0.583384,0.190317
+Harvard,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.754238,0.835894,const,2.439066,0.074462,0.0,2.292432,2.5857
+Harvard,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.754238,0.835894,Recession,0.087533,0.058583,0.136357,-0.027831,0.202896
+Harvard,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.754238,0.835894,Decade_1950s,-0.152374,0.083532,0.069292,-0.316868,0.01212
+Harvard,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.754238,0.835894,Decade_1960s,-0.458763,0.100221,7e-06,-0.656122,-0.261404
+Harvard,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.754238,0.835894,Decade_1970s,-0.86064,0.074815,0.0,-1.007968,-0.713313
+Harvard,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.754238,0.835894,Decade_1980s,-0.513359,0.101791,1e-06,-0.713809,-0.312908
+Harvard,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.754238,0.835894,Decade_1990s,-0.379358,0.091168,4.3e-05,-0.55889,-0.199825
+Harvard,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.754238,0.835894,Decade_2000s,-0.0018,0.113654,0.987378,-0.225612,0.222012
+Harvard,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.754238,0.835894,Decade_2010s,0.21567,0.093444,0.021793,0.031656,0.399684
+Harvard,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.754238,0.835894,Post1973,0.270441,0.059848,9e-06,0.152586,0.388295
+Harvard,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.754238,0.835894,Recession_x_Post1973,-0.104335,0.094762,0.271917,-0.290944,0.082274
+Harvard,Neg,Average of ratios,Any month (48 quarters),A,A. Recession only,268,0.002369,1.040686,const,0.492516,0.008839,0.0,0.475112,0.509919
+Harvard,Neg,Average of ratios,Any month (48 quarters),A,A. Recession only,268,0.002369,1.040686,Recession,0.011324,0.02207,0.60832,-0.032131,0.054778
+Harvard,Neg,Average of ratios,Any month (48 quarters),B,B. + linear time trend,268,0.060626,1.101334,const,0.531482,0.020109,0.0,0.491888,0.571076
+Harvard,Neg,Average of ratios,Any month (48 quarters),B,B. + linear time trend,268,0.060626,1.101334,Recession,0.003318,0.018603,0.858567,-0.033311,0.039947
+Harvard,Neg,Average of ratios,Any month (48 quarters),B,B. + linear time trend,268,0.060626,1.101334,Time_Trend,-0.000281,0.000137,0.041639,-0.000552,-1.1e-05
+Harvard,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.460421,1.935487,const,0.703328,0.013277,0.0,0.677182,0.729473
+Harvard,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.460421,1.935487,Recession,-0.001844,0.009266,0.84237,-0.02009,0.016401
+Harvard,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.460421,1.935487,Decade_1950s,-0.127042,0.014256,0.0,-0.155114,-0.09897
+Harvard,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.460421,1.935487,Decade_1960s,-0.223154,0.017715,0.0,-0.258038,-0.18827
+Harvard,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.460421,1.935487,Decade_1970s,-0.246945,0.015854,0.0,-0.278164,-0.215726
+Harvard,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.460421,1.935487,Decade_1980s,-0.274447,0.013622,0.0,-0.301271,-0.247622
+Harvard,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.460421,1.935487,Decade_1990s,-0.240782,0.016133,0.0,-0.272552,-0.209013
+Harvard,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.460421,1.935487,Decade_2000s,-0.212904,0.015743,0.0,-0.243904,-0.181903
+Harvard,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.460421,1.935487,Decade_2010s,-0.14273,0.02647,0.0,-0.194854,-0.090607
+Harvard,Neg,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.129581,1.19676,const,0.517926,0.020558,0.0,0.477447,0.558406
+Harvard,Neg,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.129581,1.19676,Recession,0.04171,0.036922,0.259644,-0.030991,0.11441
+Harvard,Neg,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.129581,1.19676,Time_Trend,0.000126,0.000218,0.563858,-0.000303,0.000555
+Harvard,Neg,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.129581,1.19676,Post1973,-0.066859,0.030645,0.030017,-0.1272,-0.006518
+Harvard,Neg,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.129581,1.19676,Recession_x_Post1973,-0.056969,0.039423,0.149622,-0.134594,0.020655
+Harvard,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460533,1.936568,const,0.701877,0.014352,0.0,0.673614,0.73014
+Harvard,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460533,1.936568,Recession,0.000476,0.013618,0.972118,-0.026341,0.027294
+Harvard,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460533,1.936568,Decade_1950s,-0.126055,0.013967,0.0,-0.15356,-0.09855
+Harvard,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460533,1.936568,Decade_1960s,-0.221936,0.018996,0.0,-0.259343,-0.184528
+Harvard,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460533,1.936568,Decade_1970s,-0.248891,0.01501,0.0,-0.27845,-0.219332
+Harvard,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460533,1.936568,Decade_1980s,-0.277501,0.020872,0.0,-0.318604,-0.236399
+Harvard,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460533,1.936568,Decade_1990s,-0.244047,0.022529,0.0,-0.288411,-0.199683
+Harvard,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460533,1.936568,Decade_2000s,-0.215958,0.022449,0.0,-0.260166,-0.17175
+Harvard,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460533,1.936568,Decade_2010s,-0.1461,0.030722,3e-06,-0.206599,-0.0856
+Harvard,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460533,1.936568,Post1973,0.00482,0.016575,0.771439,-0.02782,0.03746
+Harvard,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.460533,1.936568,Recession_x_Post1973,-0.00372,0.018371,0.839675,-0.039896,0.032456
+Harvard,Pos,Pooled words,Majority of months (42 quarters),A,A. Recession only,268,0.001894,0.133211,const,2.20051,0.047542,0.0,2.106903,2.294117
+Harvard,Pos,Pooled words,Majority of months (42 quarters),A,A. Recession only,268,0.001894,0.133211,Recession,-0.042285,0.106257,0.69099,-0.251497,0.166928
+Harvard,Pos,Pooled words,Majority of months (42 quarters),B,B. + linear time trend,268,0.460632,0.24279,const,1.777382,0.079622,0.0,1.62061,1.934154
+Harvard,Pos,Pooled words,Majority of months (42 quarters),B,B. + linear time trend,268,0.460632,0.24279,Recession,0.014056,0.076992,0.855281,-0.137539,0.16565
+Harvard,Pos,Pooled words,Majority of months (42 quarters),B,B. + linear time trend,268,0.460632,0.24279,Time_Trend,0.003103,0.000429,0.0,0.002258,0.003949
+Harvard,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.789935,0.672122,const,2.076488,0.055647,0.0,1.96691,2.186066
+Harvard,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.789935,0.672122,Recession,0.007512,0.044302,0.865488,-0.079726,0.09475
+Harvard,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.789935,0.672122,Decade_1950s,0.071581,0.057391,0.213437,-0.041432,0.184594
+Harvard,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.789935,0.672122,Decade_1960s,-0.18528,0.094437,0.05084,-0.371242,0.000682
+Harvard,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.789935,0.672122,Decade_1970s,-0.328665,0.066494,1e-06,-0.459603,-0.197728
+Harvard,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.789935,0.672122,Decade_1980s,0.053161,0.071656,0.458825,-0.087941,0.194264
+Harvard,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.789935,0.672122,Decade_1990s,0.286845,0.056598,1e-06,0.175394,0.398295
+Harvard,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.789935,0.672122,Decade_2000s,0.566807,0.080198,0.0,0.408883,0.724731
+Harvard,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.789935,0.672122,Decade_2010s,0.628422,0.068677,0.0,0.493186,0.763658
+Harvard,Pos,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.488515,0.259747,const,1.754375,0.078268,0.0,1.600264,1.908486
+Harvard,Pos,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.488515,0.259747,Recession,0.054737,0.147921,0.711647,-0.236523,0.345998
+Harvard,Pos,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.488515,0.259747,Time_Trend,0.004261,0.000774,0.0,0.002737,0.005785
+Harvard,Pos,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.488515,0.259747,Post1973,-0.213065,0.146757,0.147744,-0.502034,0.075904
+Harvard,Pos,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.488515,0.259747,Recession_x_Post1973,-0.046466,0.161203,0.773388,-0.363878,0.270947
+Harvard,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.803385,0.715766,const,2.055284,0.051721,0.0,1.953432,2.157136
+Harvard,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.803385,0.715766,Recession,0.064056,0.057466,0.26603,-0.049108,0.177221
+Harvard,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.803385,0.715766,Decade_1950s,0.084303,0.05353,0.116516,-0.02111,0.189717
+Harvard,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.803385,0.715766,Decade_1960s,-0.16973,0.088279,0.055627,-0.343572,0.004111
+Harvard,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.803385,0.715766,Decade_1970s,-0.47841,0.065227,0.0,-0.606858,-0.349962
+Harvard,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.803385,0.715766,Decade_1980s,-0.161276,0.086277,0.062722,-0.331176,0.008624
+Harvard,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.803385,0.715766,Decade_1990s,0.069531,0.074157,0.349325,-0.076503,0.215564
+Harvard,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.803385,0.715766,Decade_2000s,0.352946,0.092757,0.000177,0.170285,0.535606
+Harvard,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.803385,0.715766,Decade_2010s,0.409381,0.083693,2e-06,0.24457,0.574193
+Harvard,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.803385,0.715766,Post1973,0.240244,0.061167,0.00011,0.119792,0.360696
+Harvard,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.803385,0.715766,Recession_x_Post1973,-0.079562,0.079416,0.317367,-0.235952,0.076828
+Harvard,Neg,Pooled words,Majority of months (42 quarters),A,A. Recession only,268,2.8e-05,0.535556,const,0.569635,0.014432,0.0,0.541221,0.59805
+Harvard,Neg,Pooled words,Majority of months (42 quarters),A,A. Recession only,268,2.8e-05,0.535556,Recession,-0.001634,0.025838,0.949636,-0.052506,0.049239
+Harvard,Neg,Pooled words,Majority of months (42 quarters),B,B. + linear time trend,268,0.022591,0.548538,const,0.539808,0.029022,0.0,0.482664,0.596951
+Harvard,Neg,Pooled words,Majority of months (42 quarters),B,B. + linear time trend,268,0.022591,0.548538,Recession,0.002338,0.024562,0.924233,-0.046022,0.050699
+Harvard,Neg,Pooled words,Majority of months (42 quarters),B,B. + linear time trend,268,0.022591,0.548538,Time_Trend,0.000219,0.000214,0.306888,-0.000202,0.00064
+Harvard,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.589879,1.376447,const,0.69097,0.028528,0.0,0.634793,0.747146
+Harvard,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.589879,1.376447,Recession,0.005562,0.01379,0.687056,-0.021594,0.032717
+Harvard,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.589879,1.376447,Decade_1950s,-0.047594,0.02681,0.077037,-0.100388,0.0052
+Harvard,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.589879,1.376447,Decade_1960s,-0.185515,0.032327,0.0,-0.249171,-0.121858
+Harvard,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.589879,1.376447,Decade_1970s,-0.18619,0.030151,0.0,-0.245562,-0.126818
+Harvard,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.589879,1.376447,Decade_1980s,-0.203057,0.02856,0.0,-0.259297,-0.146817
+Harvard,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.589879,1.376447,Decade_1990s,-0.176568,0.028798,0.0,-0.233275,-0.11986
+Harvard,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.589879,1.376447,Decade_2000s,-0.060082,0.035907,0.095483,-0.13079,0.010625
+Harvard,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.589879,1.376447,Decade_2010s,0.077024,0.053558,0.151602,-0.028441,0.182489
+Harvard,Neg,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.125098,0.620815,const,0.527115,0.030147,0.0,0.467756,0.586474
+Harvard,Neg,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.125098,0.620815,Recession,0.017972,0.044924,0.689443,-0.070484,0.106428
+Harvard,Neg,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.125098,0.620815,Time_Trend,0.000933,0.000332,0.005394,0.000278,0.001587
+Harvard,Neg,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.125098,0.620815,Post1973,-0.133808,0.044579,0.002944,-0.221585,-0.046031
+Harvard,Neg,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.125098,0.620815,Recession_x_Post1973,-0.012917,0.051181,0.800945,-0.113693,0.087859
+Harvard,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.590286,1.379657,const,0.693942,0.031031,0.0,0.632835,0.75505
+Harvard,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.590286,1.379657,Recession,-0.002365,0.019222,0.902163,-0.040218,0.035487
+Harvard,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.590286,1.379657,Decade_1950s,-0.049377,0.028514,0.084524,-0.105527,0.006772
+Harvard,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.590286,1.379657,Decade_1960s,-0.187695,0.034708,0.0,-0.256044,-0.119346
+Harvard,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.590286,1.379657,Decade_1970s,-0.186383,0.033414,0.0,-0.252184,-0.120582
+Harvard,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.590286,1.379657,Decade_1980s,-0.203302,0.03695,0.0,-0.276065,-0.130539
+Harvard,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.590286,1.379657,Decade_1990s,-0.176167,0.036831,3e-06,-0.248695,-0.103638
+Harvard,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.590286,1.379657,Decade_2000s,-0.060457,0.043114,0.16205,-0.145359,0.024446
+Harvard,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.590286,1.379657,Decade_2010s,0.077813,0.058162,0.182125,-0.036722,0.192348
+Harvard,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.590286,1.379657,Post1973,-0.003761,0.023026,0.870369,-0.049104,0.041581
+Harvard,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.590286,1.379657,Recession_x_Post1973,0.013096,0.027132,0.629733,-0.040333,0.066525
+Harvard,Pos,Pooled words,Any month (48 quarters),A,A. Recession only,268,0.00362,0.135341,const,2.20381,0.04853,0.0,2.108257,2.299362
+Harvard,Pos,Pooled words,Any month (48 quarters),A,A. Recession only,268,0.00362,0.135341,Recession,-0.055421,0.097048,0.568436,-0.246502,0.13566
+Harvard,Pos,Pooled words,Any month (48 quarters),B,B. + linear time trend,268,0.461717,0.24291,const,1.771222,0.080287,0.0,1.613141,1.929302
+Harvard,Pos,Pooled words,Any month (48 quarters),B,B. + linear time trend,268,0.461717,0.24291,Recession,0.033453,0.077488,0.666299,-0.119118,0.186023
+Harvard,Pos,Pooled words,Any month (48 quarters),B,B. + linear time trend,268,0.461717,0.24291,Time_Trend,0.003121,0.000431,0.0,0.002273,0.003969
+Harvard,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.790006,0.671508,const,2.072507,0.059198,0.0,1.955937,2.189078
+Harvard,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.790006,0.671508,Recession,0.010877,0.042992,0.800474,-0.073782,0.095535
+Harvard,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.790006,0.671508,Decade_1950s,0.074513,0.058917,0.207108,-0.041503,0.19053
+Harvard,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.790006,0.671508,Decade_1960s,-0.181636,0.096153,0.060004,-0.370976,0.007705
+Harvard,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.790006,0.671508,Decade_1970s,-0.325713,0.067636,2e-06,-0.4589,-0.192527
+Harvard,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.790006,0.671508,Decade_1980s,0.056197,0.074361,0.450497,-0.090233,0.202627
+Harvard,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.790006,0.671508,Decade_1990s,0.290573,0.059456,2e-06,0.173494,0.407652
+Harvard,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.790006,0.671508,Decade_2000s,0.570031,0.082856,0.0,0.406874,0.733188
+Harvard,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.790006,0.671508,Decade_2010s,0.632403,0.071604,0.0,0.491403,0.773402
+Harvard,Pos,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.495468,0.262316,const,1.735252,0.081305,0.0,1.57516,1.895344
+Harvard,Pos,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.495468,0.262316,Recession,0.128791,0.138973,0.354913,-0.14485,0.402433
+Harvard,Pos,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.495468,0.262316,Time_Trend,0.004289,0.000786,0.0,0.002741,0.005836
+Harvard,Pos,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.495468,0.262316,Post1973,-0.196394,0.147937,0.185478,-0.487685,0.094898
+Harvard,Pos,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.495468,0.262316,Recession_x_Post1973,-0.137756,0.151232,0.363184,-0.435536,0.160023
+Harvard,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.804958,0.710347,const,2.028426,0.051744,0.0,1.926531,2.130321
+Harvard,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.804958,0.710347,Recession,0.081407,0.052175,0.119925,-0.021337,0.184152
+Harvard,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.804958,0.710347,Decade_1950s,0.104489,0.051755,0.044534,0.002571,0.206406
+Harvard,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.804958,0.710347,Decade_1960s,-0.144607,0.085743,0.09291,-0.313456,0.024241
+Harvard,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.804958,0.710347,Decade_1970s,-0.457335,0.066483,0.0,-0.588256,-0.326414
+Harvard,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.804958,0.710347,Decade_1980s,-0.140246,0.086559,0.106407,-0.3107,0.030209
+Harvard,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.804958,0.710347,Decade_1990s,0.088476,0.07557,0.242774,-0.06034,0.237291
+Harvard,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.804958,0.710347,Decade_2000s,0.373588,0.09435,9.7e-05,0.18779,0.559386
+Harvard,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.804958,0.710347,Decade_2010s,0.427478,0.085082,1e-06,0.259931,0.595024
+Harvard,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.804958,0.710347,Post1973,0.249007,0.063804,0.000122,0.123361,0.374652
+Harvard,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.804958,0.710347,Recession_x_Post1973,-0.108228,0.075062,0.15056,-0.256043,0.039586
+Harvard,Neg,Pooled words,Any month (48 quarters),A,A. Recession only,268,0.000292,0.53665,const,0.568484,0.014553,0.0,0.539829,0.597138
+Harvard,Neg,Pooled words,Any month (48 quarters),A,A. Recession only,268,0.000292,0.53665,Recession,0.005002,0.026568,0.850817,-0.047309,0.057313
+Harvard,Neg,Pooled words,Any month (48 quarters),B,B. + linear time trend,268,0.024029,0.551128,const,0.537184,0.028573,0.0,0.480924,0.593444
+Harvard,Neg,Pooled words,Any month (48 quarters),B,B. + linear time trend,268,0.024029,0.551128,Recession,0.011432,0.025528,0.654648,-0.038832,0.061696
+Harvard,Neg,Pooled words,Any month (48 quarters),B,B. + linear time trend,268,0.024029,0.551128,Time_Trend,0.000226,0.000212,0.287781,-0.000192,0.000643
+Harvard,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.589864,1.376089,const,0.689782,0.028383,0.0,0.63389,0.745674
+Harvard,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.589864,1.376089,Recession,0.005237,0.013319,0.694496,-0.020991,0.031465
+Harvard,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.589864,1.376089,Decade_1950s,-0.04662,0.026703,0.08202,-0.099202,0.005963
+Harvard,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.589864,1.376089,Decade_1960s,-0.184295,0.032392,0.0,-0.248081,-0.120509
+Harvard,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.589864,1.376089,Decade_1970s,-0.18506,0.030105,0.0,-0.244343,-0.125778
+Harvard,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.589864,1.376089,Decade_1980s,-0.201935,0.028423,0.0,-0.257904,-0.145966
+Harvard,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.589864,1.376089,Decade_1990s,-0.175356,0.028659,0.0,-0.23179,-0.118921
+Harvard,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.589864,1.376089,Decade_2000s,-0.058822,0.035737,0.100988,-0.129195,0.011551
+Harvard,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.589864,1.376089,Decade_2010s,0.078212,0.053347,0.143833,-0.026837,0.18326
+Harvard,Neg,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.134629,0.631432,const,0.519465,0.030052,0.0,0.460293,0.578638
+Harvard,Neg,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.134629,0.631432,Recession,0.047487,0.046809,0.311288,-0.044682,0.139656
+Harvard,Neg,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.134629,0.631432,Time_Trend,0.000948,0.000331,0.004578,0.000295,0.0016
+Harvard,Neg,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.134629,0.631432,Post1973,-0.128447,0.044563,0.004273,-0.216193,-0.040702
+Harvard,Neg,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.134629,0.631432,Recession_x_Post1973,-0.045463,0.052214,0.384713,-0.148274,0.057348
+Harvard,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.589939,1.377189,const,0.691805,0.030502,0.0,0.63174,0.75187
+Harvard,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.589939,1.377189,Recession,0.002,0.018818,0.915451,-0.035058,0.039058
+Harvard,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.589939,1.377189,Decade_1950s,-0.047995,0.028156,0.089472,-0.103441,0.00745
+Harvard,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.589939,1.377189,Decade_1960s,-0.185994,0.034577,0.0,-0.254084,-0.117905
+Harvard,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.589939,1.377189,Decade_1970s,-0.185701,0.034102,0.0,-0.252856,-0.118547
+Harvard,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.589939,1.377189,Decade_1980s,-0.20247,0.037602,0.0,-0.276517,-0.128422
+Harvard,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.589939,1.377189,Decade_1990s,-0.175564,0.037557,5e-06,-0.249523,-0.101604
+Harvard,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.589939,1.377189,Decade_2000s,-0.059356,0.043664,0.175218,-0.145341,0.026629
+Harvard,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.589939,1.377189,Decade_2010s,0.078167,0.058636,0.183681,-0.037301,0.193634
+Harvard,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.589939,1.377189,Post1973,-0.001978,0.023872,0.934013,-0.048987,0.045031
+Harvard,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.589939,1.377189,Recession_x_Post1973,0.005413,0.026343,0.837368,-0.046464,0.057289
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),A,A. Recession only,268,0.008077,0.183769,const,1.274345,0.040791,0.0,1.194031,1.35466
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),A,A. Recession only,268,0.008077,0.183769,Recession,-0.075277,0.087372,0.3897,-0.247306,0.096752
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),B,B. + linear time trend,268,0.716085,0.637466,const,0.821137,0.042391,0.0,0.73767,0.904604
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),B,B. + linear time trend,268,0.716085,0.637466,Recession,-0.014931,0.042881,0.727961,-0.099362,0.069499
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),B,B. + linear time trend,268,0.716085,0.637466,Time_Trend,0.003324,0.00022,0.0,0.00289,0.003758
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.839535,1.167752,const,0.845395,0.015089,0.0,0.815683,0.875107
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.839535,1.167752,Recession,-0.021476,0.026386,0.416439,-0.073436,0.030483
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.839535,1.167752,Decade_1950s,0.227069,0.02434,0.0,0.179139,0.275
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.839535,1.167752,Decade_1960s,0.180658,0.041519,1.9e-05,0.098899,0.262416
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.839535,1.167752,Decade_1970s,0.120252,0.021241,0.0,0.078425,0.162079
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.839535,1.167752,Decade_1980s,0.427751,0.045239,0.0,0.338669,0.516833
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.839535,1.167752,Decade_1990s,0.601132,0.02461,0.0,0.552672,0.649592
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.839535,1.167752,Decade_2000s,0.818174,0.032789,0.0,0.753608,0.882741
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.839535,1.167752,Decade_2010s,0.88488,0.029119,0.0,0.827539,0.942221
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.735898,0.689507,const,0.806884,0.041081,0.0,0.725994,0.887774
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.735898,0.689507,Recession,-0.002165,0.076596,0.977476,-0.152984,0.148655
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.735898,0.689507,Time_Trend,0.004179,0.000413,0.0,0.003366,0.004992
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.735898,0.689507,Post1973,-0.161699,0.081965,0.049566,-0.32309,-0.000309
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.735898,0.689507,Recession_x_Post1973,-0.005561,0.085415,0.94814,-0.173745,0.162623
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.841988,1.189904,const,0.833223,0.017698,0.0,0.798371,0.868075
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.841988,1.189904,Recession,0.010982,0.022916,0.632173,-0.034145,0.05611
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.841988,1.189904,Decade_1950s,0.234373,0.025314,0.0,0.184524,0.284221
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.841988,1.189904,Decade_1960s,0.189584,0.040507,5e-06,0.109816,0.269352
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.841988,1.189904,Decade_1970s,0.0725,0.020632,0.000521,0.031871,0.113128
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.841988,1.189904,Decade_1980s,0.359312,0.051935,0.0,0.25704,0.461584
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.841988,1.189904,Decade_1990s,0.530603,0.036076,0.0,0.459561,0.601646
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.841988,1.189904,Decade_2000s,0.750153,0.041747,0.0,0.667944,0.832362
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.841988,1.189904,Decade_2010s,0.813098,0.039513,0.0,0.735287,0.890908
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.841988,1.189904,Post1973,0.083955,0.026938,0.002038,0.030907,0.137002
+Loughran-McDonald,Pos,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.841988,1.189904,Recession_x_Post1973,-0.049175,0.045507,0.280886,-0.138788,0.040439
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),A,A. Recession only,268,0.012759,0.938303,const,0.468593,0.007572,0.0,0.453685,0.483502
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),A,A. Recession only,268,0.012759,0.938303,Recession,0.024968,0.01961,0.204058,-0.013643,0.063579
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),B,B. + linear time trend,268,0.013361,0.939187,const,0.465108,0.021784,0.0,0.422216,0.507999
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),B,B. + linear time trend,268,0.013361,0.939187,Recession,0.025432,0.019371,0.190362,-0.012709,0.063574
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),B,B. + linear time trend,268,0.013361,0.939187,Time_Trend,2.6e-05,0.000136,0.851365,-0.000243,0.000294
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.368359,1.506935,const,0.662071,0.011509,0.0,0.639409,0.684734
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.368359,1.506935,Recession,0.020064,0.011796,0.090154,-0.003164,0.043291
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.368359,1.506935,Decade_1950s,-0.16425,0.01673,0.0,-0.197195,-0.131305
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.368359,1.506935,Decade_1960s,-0.23263,0.013943,0.0,-0.260086,-0.205174
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.368359,1.506935,Decade_1970s,-0.225237,0.017455,0.0,-0.259608,-0.190866
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.368359,1.506935,Decade_1980s,-0.238401,0.014207,0.0,-0.266378,-0.210424
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.368359,1.506935,Decade_1990s,-0.198391,0.013809,0.0,-0.225583,-0.171198
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.368359,1.506935,Decade_2000s,-0.163839,0.02291,0.0,-0.208954,-0.118725
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.368359,1.506935,Decade_2010s,-0.136809,0.021124,0.0,-0.178405,-0.095212
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.04781,0.970237,const,0.460264,0.021563,0.0,0.417806,0.502723
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.04781,0.970237,Recession,0.029115,0.038002,0.444286,-0.045712,0.103941
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.04781,0.970237,Time_Trend,0.000323,0.000206,0.117156,-8.2e-05,0.000728
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.04781,0.970237,Post1973,-0.056517,0.02681,0.035972,-0.109307,-0.003728
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.04781,0.970237,Recession_x_Post1973,-0.000664,0.04326,0.987758,-0.085844,0.084515
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.37481,1.532619,const,0.669679,0.014425,0.0,0.641272,0.698086
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.37481,1.532619,Recession,-0.000223,0.015347,0.988395,-0.030446,0.029999
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.37481,1.532619,Decade_1950s,-0.168814,0.017829,0.0,-0.203924,-0.133704
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.37481,1.532619,Decade_1960s,-0.238209,0.017191,0.0,-0.272063,-0.204355
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.37481,1.532619,Decade_1970s,-0.213425,0.024902,0.0,-0.262462,-0.164388
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.37481,1.532619,Decade_1980s,-0.221424,0.030717,0.0,-0.281913,-0.160935
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.37481,1.532619,Decade_1990s,-0.179901,0.030202,0.0,-0.239376,-0.120426
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.37481,1.532619,Decade_2000s,-0.147165,0.034829,3.3e-05,-0.215751,-0.078579
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.37481,1.532619,Decade_2010s,-0.117411,0.033982,0.000643,-0.184329,-0.050493
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.37481,1.532619,Post1973,-0.027005,0.025291,0.286628,-0.076809,0.022799
+Loughran-McDonald,Neg,Average of ratios,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.37481,1.532619,Recession_x_Post1973,0.032388,0.022752,0.155801,-0.012416,0.077192
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),A,A. Recession only,268,0.017756,0.193026,const,1.281501,0.041235,0.0,1.200312,1.36269
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),A,A. Recession only,268,0.017756,0.193026,Recession,-0.105819,0.082091,0.198499,-0.267449,0.055811
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),B,B. + linear time trend,268,0.715966,0.639259,const,0.821056,0.043502,0.0,0.735401,0.90671
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),B,B. + linear time trend,268,0.715966,0.639259,Recession,-0.011222,0.041107,0.785071,-0.09216,0.069716
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),B,B. + linear time trend,268,0.715966,0.639259,Time_Trend,0.003322,0.000224,0.0,0.002881,0.003763
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.839448,1.174494,const,0.849369,0.020083,0.0,0.809823,0.888916
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.839448,1.174494,Recession,-0.019245,0.026225,0.46372,-0.070887,0.032397
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.839448,1.174494,Decade_1950s,0.223723,0.025714,0.0,0.173087,0.274358
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.839448,1.174494,Decade_1960s,0.17646,0.042673,4.8e-05,0.09243,0.260491
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.839448,1.174494,Decade_1970s,0.116257,0.022399,0.0,0.07215,0.160364
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.839448,1.174494,Decade_1980s,0.423812,0.047561,0.0,0.330157,0.517466
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.839448,1.174494,Decade_1990s,0.596991,0.027295,0.0,0.543243,0.650738
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.839448,1.174494,Decade_2000s,0.813698,0.0351,0.0,0.744581,0.882815
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.839448,1.174494,Decade_2010s,0.880906,0.032056,0.0,0.817783,0.944028
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.736474,0.690191,const,0.801586,0.043551,0.0,0.715833,0.887338
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.736474,0.690191,Recession,0.023745,0.067762,0.726308,-0.10968,0.157169
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.736474,0.690191,Time_Trend,0.004178,0.000421,0.0,0.00335,0.005006
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.736474,0.690191,Post1973,-0.154665,0.082815,0.06293,-0.31773,0.0084
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.736474,0.690191,Recession_x_Post1973,-0.040406,0.076526,0.597939,-0.191087,0.110275
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.842872,1.189561,const,0.822086,0.022777,0.0,0.777233,0.866939
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.842872,1.189561,Recession,0.024409,0.018638,0.191505,-0.012295,0.061112
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.842872,1.189561,Decade_1950s,0.242275,0.026509,0.0,0.190073,0.294477
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.842872,1.189561,Decade_1960s,0.199378,0.040655,2e-06,0.119318,0.279438
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.842872,1.189561,Decade_1970s,0.079161,0.025212,0.001888,0.029512,0.12881
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.842872,1.189561,Decade_1980s,0.365643,0.053046,0.0,0.261183,0.470102
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.842872,1.189561,Decade_1990s,0.534879,0.039256,0.0,0.457574,0.612183
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.842872,1.189561,Decade_2000s,0.755529,0.044915,0.0,0.667081,0.843977
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.842872,1.189561,Decade_2010s,0.816822,0.04264,0.0,0.732853,0.900791
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.842872,1.189561,Post1973,0.091367,0.028429,0.001477,0.035384,0.14735
+Loughran-McDonald,Pos,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.842872,1.189561,Recession_x_Post1973,-0.069942,0.044015,0.113281,-0.156618,0.016734
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),A,A. Recession only,268,0.025401,0.950528,const,0.466524,0.007197,0.0,0.452354,0.480694
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),A,A. Recession only,268,0.025401,0.950528,Recession,0.033399,0.021361,0.119109,-0.008659,0.075458
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),B,B. + linear time trend,268,0.026819,0.952714,const,0.461047,0.02045,0.0,0.420781,0.501313
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),B,B. + linear time trend,268,0.026819,0.952714,Recession,0.034525,0.020743,0.097217,-0.006318,0.075367
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),B,B. + linear time trend,268,0.026819,0.952714,Time_Trend,4e-05,0.000131,0.763559,-0.000219,0.000298
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.369121,1.507748,const,0.656904,0.012279,0.0,0.632726,0.681083
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.369121,1.507748,Recession,0.020305,0.011314,0.073857,-0.001973,0.042583
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.369121,1.507748,Decade_1950s,-0.160134,0.016716,0.0,-0.19305,-0.127218
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.369121,1.507748,Decade_1960s,-0.227488,0.014376,0.0,-0.255795,-0.19918
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.369121,1.507748,Decade_1970s,-0.220632,0.017603,0.0,-0.255296,-0.185968
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.369121,1.507748,Decade_1980s,-0.23379,0.014697,0.0,-0.262731,-0.204849
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.369121,1.507748,Decade_1990s,-0.193242,0.014359,0.0,-0.221517,-0.164966
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.369121,1.507748,Decade_2000s,-0.158727,0.023476,0.0,-0.204955,-0.112499
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),C,C. + decade fixed effects,268,0.369121,1.507748,Decade_2010s,-0.131642,0.021554,0.0,-0.174085,-0.089199
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.068661,0.9969,const,0.452537,0.019987,0.0,0.413182,0.491892
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.068661,0.9969,Recession,0.054738,0.041146,0.184552,-0.026278,0.135755
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.068661,0.9969,Time_Trend,0.000347,0.000202,0.086227,-5e-05,0.000744
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.068661,0.9969,Post1973,-0.053268,0.026786,0.047778,-0.106011,-0.000525
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.068661,0.9969,Recession_x_Post1973,-0.027784,0.045785,0.544488,-0.117935,0.062368
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.374984,1.52105,const,0.667949,0.016586,0.0,0.635288,0.70061
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.374984,1.52105,Recession,0.002634,0.01516,0.862228,-0.027221,0.032488
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.374984,1.52105,Decade_1950s,-0.167645,0.017548,0.0,-0.202202,-0.133088
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.374984,1.52105,Decade_1960s,-0.236765,0.018741,0.0,-0.27367,-0.19986
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.374984,1.52105,Decade_1970s,-0.212648,0.026413,0.0,-0.264662,-0.160634
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.374984,1.52105,Decade_1980s,-0.220294,0.032025,0.0,-0.283359,-0.157229
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.374984,1.52105,Decade_1990s,-0.178079,0.031415,0.0,-0.239942,-0.116216
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.374984,1.52105,Decade_2000s,-0.145231,0.035911,6.9e-05,-0.215947,-0.074514
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.374984,1.52105,Decade_2010s,-0.115646,0.035085,0.001118,-0.184737,-0.046554
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.374984,1.52105,Post1973,-0.027041,0.025773,0.295077,-0.077795,0.023713
+Loughran-McDonald,Neg,Average of ratios,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.374984,1.52105,Recession_x_Post1973,0.028782,0.022201,0.195983,-0.014936,0.072501
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),A,A. Recession only,268,0.002464,0.192182,const,1.23418,0.032384,0.0,1.170418,1.297942
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),A,A. Recession only,268,0.002464,0.192182,Recession,-0.033396,0.072613,0.645948,-0.176365,0.109572
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),B,B. + linear time trend,268,0.670468,0.58427,const,0.880611,0.036514,0.0,0.808716,0.952507
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),B,B. + linear time trend,268,0.670468,0.58427,Recession,0.013682,0.037016,0.711954,-0.059201,0.086566
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),B,B. + linear time trend,268,0.670468,0.58427,Time_Trend,0.002593,0.000209,0.0,0.002181,0.003005
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.787789,0.944535,const,0.82478,0.027046,0.0,0.771521,0.878038
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.787789,0.944535,Recession,0.005284,0.028895,0.855033,-0.051614,0.062182
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.787789,0.944535,Decade_1950s,0.25072,0.034641,0.0,0.182505,0.318934
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.787789,0.944535,Decade_1960s,0.183537,0.048401,0.000186,0.088227,0.278848
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.787789,0.944535,Decade_1970s,0.183726,0.031129,0.0,0.122429,0.245023
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.787789,0.944535,Decade_1980s,0.446499,0.042034,0.0,0.363727,0.529271
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.787789,0.944535,Decade_1990s,0.614747,0.031607,0.0,0.552507,0.676986
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.787789,0.944535,Decade_2000s,0.695776,0.042943,0.0,0.611215,0.780338
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.787789,0.944535,Decade_2010s,0.654721,0.055457,0.0,0.545516,0.763926
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.670921,0.584053,const,0.880506,0.036706,0.0,0.80823,0.952781
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.670921,0.584053,Recession,0.005955,0.064194,0.926161,-0.120445,0.132355
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.670921,0.584053,Time_Trend,0.002686,0.000414,0.0,0.001871,0.003502
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.670921,0.584053,Post1973,-0.019886,0.072437,0.783898,-0.162516,0.122745
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.670921,0.584053,Recession_x_Post1973,0.014567,0.076697,0.849508,-0.136451,0.165586
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.791651,0.964281,const,0.818378,0.025724,0.0,0.767721,0.869035
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.791651,0.964281,Recession,0.022355,0.029834,0.454358,-0.036395,0.081105
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.791651,0.964281,Decade_1950s,0.254561,0.032588,0.0,0.190387,0.318734
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.791651,0.964281,Decade_1960s,0.188231,0.046347,6.5e-05,0.096964,0.279499
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.791651,0.964281,Decade_1970s,0.126597,0.035524,0.000436,0.056642,0.196553
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.791651,0.964281,Decade_1980s,0.364707,0.051817,0.0,0.262668,0.466747
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.791651,0.964281,Decade_1990s,0.532223,0.043539,0.0,0.446485,0.61796
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.791651,0.964281,Decade_2000s,0.614131,0.051493,0.0,0.512729,0.715532
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.791651,0.964281,Decade_2010s,0.571758,0.06305,0.0,0.447597,0.695919
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.791651,0.964281,Post1973,0.089365,0.034154,0.00941,0.022107,0.156622
+Loughran-McDonald,Pos,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.791651,0.964281,Recession_x_Post1973,-0.022926,0.050676,0.651351,-0.122719,0.076866
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),A,A. Recession only,268,0.006276,0.599329,const,0.587789,0.014318,0.0,0.559598,0.61598
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),A,A. Recession only,268,0.006276,0.599329,Recession,0.026731,0.034065,0.433313,-0.040339,0.093802
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),B,B. + linear time trend,268,0.209091,0.758629,const,0.490077,0.023787,0.0,0.443242,0.536913
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),B,B. + linear time trend,268,0.209091,0.758629,Recession,0.039742,0.027944,0.156146,-0.015279,0.094763
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),B,B. + linear time trend,268,0.209091,0.758629,Time_Trend,0.000717,0.00018,8.9e-05,0.000362,0.001071
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.449573,1.143577,const,0.572647,0.030482,0.0,0.512623,0.632671
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.449573,1.143577,Recession,0.033936,0.022798,0.137823,-0.010957,0.078829
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.449573,1.143577,Decade_1950s,0.009246,0.029632,0.755278,-0.049105,0.067597
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.449573,1.143577,Decade_1960s,-0.076734,0.03307,0.021097,-0.141854,-0.011615
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.449573,1.143577,Decade_1970s,-0.016107,0.035599,0.651325,-0.086208,0.053994
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.449573,1.143577,Decade_1980s,-0.041389,0.030962,0.182463,-0.102358,0.019579
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.449573,1.143577,Decade_1990s,-0.010336,0.031067,0.739627,-0.071513,0.05084
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.449573,1.143577,Decade_2000s,0.121325,0.052536,0.021712,0.017872,0.224777
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),C,C. + decade fixed effects,268,0.449573,1.143577,Decade_2010s,0.215765,0.044491,2e-06,0.128156,0.303375
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.246853,0.803282,const,0.486523,0.024235,0.0,0.438805,0.534242
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.246853,0.803282,Recession,0.020495,0.036787,0.577913,-0.051939,0.09293
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.246853,0.803282,Time_Trend,0.001178,0.000301,0.000116,0.000586,0.001771
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.246853,0.803282,Post1973,-0.093899,0.042104,0.026581,-0.176803,-0.010995
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),D,D. + trend + Recession x Post-1973,268,0.246853,0.803282,Recession_x_Post1973,0.040504,0.051807,0.435019,-0.061505,0.142512
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.456631,1.1661,const,0.585589,0.036416,0.0,0.513877,0.657302
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.456631,1.1661,Recession,-0.000577,0.023943,0.980779,-0.047727,0.046572
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.456631,1.1661,Decade_1950s,0.00148,0.035091,0.966384,-0.067623,0.070584
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.456631,1.1661,Decade_1960s,-0.086226,0.039267,0.028995,-0.163552,-0.008899
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.456631,1.1661,Decade_1970s,-0.027093,0.047506,0.568971,-0.120643,0.066458
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.456631,1.1661,Decade_1980s,-0.056969,0.053221,0.28543,-0.161774,0.047836
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.456631,1.1661,Decade_1990s,-0.022987,0.052994,0.664825,-0.127345,0.081371
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.456631,1.1661,Decade_2000s,0.105158,0.067139,0.118515,-0.027055,0.237372
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.456631,1.1661,Decade_2010s,0.204872,0.061642,0.001018,0.083485,0.326259
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.456631,1.1661,Post1973,-0.002049,0.039544,0.958707,-0.079922,0.075823
+Loughran-McDonald,Neg,Pooled words,Majority of months (42 quarters),E,E. + decade FE + Recession x Post-1973,268,0.456631,1.1661,Recession_x_Post1973,0.057949,0.040224,0.150895,-0.021261,0.137159
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),A,A. Recession only,268,0.009098,0.196949,const,1.239842,0.032729,0.0,1.175402,1.304282
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),A,A. Recession only,268,0.009098,0.196949,Recession,-0.060837,0.0684,0.374575,-0.19551,0.073837
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),B,B. + linear time trend,268,0.670471,0.583372,const,0.879916,0.037652,0.0,0.805781,0.95405
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),B,B. + linear time trend,268,0.670471,0.583372,Recession,0.013109,0.035329,0.710889,-0.056452,0.08267
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),B,B. + linear time trend,268,0.670471,0.583372,Time_Trend,0.002597,0.000213,0.0,0.002178,0.003016
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.787838,0.944016,const,0.822446,0.029727,0.0,0.763907,0.880984
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.787838,0.944016,Recession,0.006905,0.028171,0.80655,-0.048568,0.062378
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.787838,0.944016,Decade_1950s,0.252466,0.034794,0.0,0.18395,0.320981
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.787838,0.944016,Decade_1960s,0.185709,0.049417,0.000212,0.088399,0.28302
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.787838,0.944016,Decade_1970s,0.185523,0.032194,0.0,0.122128,0.248918
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.787838,0.944016,Decade_1980s,0.448337,0.044243,0.0,0.361214,0.535459
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.787838,0.944016,Decade_1990s,0.616959,0.033465,0.0,0.551061,0.682858
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.787838,0.944016,Decade_2000s,0.697746,0.0452,0.0,0.60874,0.786751
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.787838,0.944016,Decade_2010s,0.657055,0.056784,0.0,0.545238,0.768873
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.671052,0.584125,const,0.876178,0.03885,0.0,0.799682,0.952673
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.671052,0.584125,Recession,0.025381,0.057186,0.657531,-0.087221,0.137983
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.671052,0.584125,Time_Trend,0.002686,0.000424,0.0,0.001852,0.003521
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.671052,0.584125,Post1973,-0.01354,0.073275,0.853541,-0.15782,0.13074
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.671052,0.584125,Recession_x_Post1973,-0.019169,0.070367,0.785512,-0.157723,0.119384
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.79294,0.959943,const,0.801315,0.023966,0.0,0.75412,0.84851
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.79294,0.959943,Recession,0.040715,0.027077,0.133898,-0.012607,0.094036
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.79294,0.959943,Decade_1950s,0.266834,0.027601,0.0,0.212481,0.321188
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.79294,0.959943,Decade_1960s,0.203459,0.043291,4e-06,0.118209,0.288709
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.79294,0.959943,Decade_1970s,0.137541,0.037387,0.000285,0.063917,0.211164
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.79294,0.959943,Decade_1980s,0.375769,0.052625,0.0,0.272139,0.4794
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.79294,0.959943,Decade_1990s,0.54153,0.045386,0.0,0.452155,0.630905
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.79294,0.959943,Decade_2000s,0.625178,0.053829,0.0,0.519177,0.73118
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.79294,0.959943,Decade_2010s,0.580195,0.064491,0.0,0.453196,0.707194
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.79294,0.959943,Post1973,0.097991,0.037392,0.0093,0.024356,0.171625
+Loughran-McDonald,Pos,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.79294,0.959943,Recession_x_Post1973,-0.052887,0.048816,0.279654,-0.149018,0.043244
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),A,A. Recession only,268,0.00582,0.596155,const,0.587607,0.014659,0.0,0.558745,0.616469
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),A,A. Recession only,268,0.00582,0.596155,Recession,0.024405,0.030788,0.428664,-0.036214,0.085025
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),B,B. + linear time trend,268,0.214937,0.762089,const,0.4861,0.023879,0.0,0.439083,0.533116
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),B,B. + linear time trend,268,0.214937,0.762089,Recession,0.04526,0.02674,0.091712,-0.007391,0.09791
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),B,B. + linear time trend,268,0.214937,0.762089,Time_Trend,0.000732,0.00018,6.3e-05,0.000378,0.001087
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.450914,1.141123,const,0.563499,0.02971,0.0,0.504995,0.622003
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.450914,1.141123,Recession,0.034999,0.02135,0.102363,-0.007042,0.07704
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.450914,1.141123,Decade_1950s,0.016485,0.028116,0.558184,-0.038881,0.07185
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.450914,1.141123,Decade_1960s,-0.067693,0.032104,0.035946,-0.130911,-0.004474
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.450914,1.141123,Decade_1970s,-0.008073,0.034658,0.816004,-0.07632,0.060175
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.450914,1.141123,Decade_1980s,-0.033329,0.029583,0.260949,-0.091582,0.024925
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.450914,1.141123,Decade_1990s,-0.001268,0.03018,0.966528,-0.060698,0.058162
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.450914,1.141123,Decade_2000s,0.130234,0.052187,0.0132,0.027469,0.232998
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),C,C. + decade fixed effects,268,0.450914,1.141123,Decade_2010s,0.224913,0.043846,1e-06,0.138572,0.311254
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.251679,0.804912,const,0.479161,0.024714,0.0,0.430498,0.527824
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.251679,0.804912,Recession,0.045171,0.037433,0.228631,-0.028536,0.118878
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.251679,0.804912,Time_Trend,0.001206,0.000304,9.4e-05,0.000607,0.001804
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.251679,0.804912,Post1973,-0.091589,0.042432,0.031793,-0.175137,-0.00804
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),D,D. + trend + Recession x Post-1973,268,0.251679,0.804912,Recession_x_Post1973,0.011365,0.050689,0.822767,-0.088442,0.111172
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.454687,1.156388,const,0.578187,0.036265,0.0,0.506774,0.649601
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.454687,1.156388,Recession,0.011497,0.023491,0.624956,-0.034763,0.057757
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.454687,1.156388,Decade_1950s,0.006497,0.033947,0.848383,-0.060353,0.073347
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.454687,1.156388,Decade_1960s,-0.080031,0.03863,0.03929,-0.156103,-0.003959
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.454687,1.156388,Decade_1970s,-0.023715,0.049122,0.629658,-0.120448,0.073017
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.454687,1.156388,Decade_1980s,-0.052915,0.054782,0.334993,-0.160793,0.054964
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.454687,1.156388,Decade_1990s,-0.018375,0.054605,0.736765,-0.125905,0.089156
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.454687,1.156388,Decade_2000s,0.110648,0.068566,0.10781,-0.024375,0.24567
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.454687,1.156388,Decade_2010s,0.209046,0.063072,0.001051,0.084842,0.33325
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.454687,1.156388,Post1973,0.001179,0.041676,0.977444,-0.08089,0.083248
+Loughran-McDonald,Neg,Pooled words,Any month (48 quarters),E,E. + decade FE + Recession x Post-1973,268,0.454687,1.156388,Recession_x_Post1973,0.040027,0.038784,0.303024,-0.036349,0.116403
