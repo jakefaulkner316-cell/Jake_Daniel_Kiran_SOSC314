@@ -1,6 +1,6 @@
 # WEEK 5 MODEL REVISION
 # TIME TREND, DECADE EFFECTS, POST-1973 INTERACTION, AND RECESSION-DEFINITION ROBUSTNESS
-#
+# 
 # PURPOSE:
 # Test whether the recession-sentiment association survives
 # alternative ways of accounting for long-run change in
