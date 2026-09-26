@@ -1,0 +1,98 @@
+WEEK 5 MODEL REVISION 04D
+AGGREGATION METHOD ROBUSTNESS: AVERAGE OF RATIOS vs POOLED WORDS
+==============================================================================
+
+SAMPLE: full corpus, 1948Q1-2014Q4, 268 quarters in every model.
+Inference: HAC / Newey-West, 4 lags. * = p < .05.
+Coefficients in percentage points; [%] = % of the series' own mean.
+
+------------------------------------------------------------------------------
+THE TWO QUARTERLY SERIES
+------------------------------------------------------------------------------
+Harvard Pos: mean 2.2767 (macro) vs 2.1939 (pooled) pp; correlation 0.930
+Harvard Neg: mean 0.4945 (macro) vs 0.5694 (pooled) pp; correlation 0.681
+Loughran-McDonald Pos: mean 1.2625 (macro) vs 1.2289 (pooled) pp; correlation 0.935
+Loughran-McDonald Neg: mean 0.4725 (macro) vs 0.5920 (pooled) pp; correlation 0.670
+
+------------------------------------------------------------------------------
+Majority of months (42 quarters)
+------------------------------------------------------------------------------
+Harvard Pos
+   A. Recession only                    macro -0.0291 [ -1.3%] p=0.809  | pooled -0.0423 [ -1.9%] p=0.691 
+   B. + linear trend                    macro +0.0201 [ +0.9%] p=0.838  | pooled +0.0141 [ +0.6%] p=0.855 
+   C. + decade fixed effects            macro +0.0148 [ +0.7%] p=0.781  | pooled +0.0075 [ +0.3%] p=0.865 
+   D. Trend + interaction: pre-1973     macro +0.0831 [ +3.6%] p=0.638  | pooled +0.0547 [ +2.5%] p=0.712 
+   D. Trend + interaction: post-1973    macro +0.0093 [ +0.4%] p=0.923  | pooled +0.0083 [ +0.4%] p=0.908 
+
+Harvard Neg
+   A. Recession only                    macro +0.0021 [ +0.4%] p=0.910  | pooled -0.0016 [ -0.3%] p=0.950    SIGN DIFFERS
+   B. + linear trend                    macro -0.0031 [ -0.6%] p=0.852  | pooled +0.0023 [ +0.4%] p=0.924    SIGN DIFFERS
+   C. + decade fixed effects            macro +0.0010 [ +0.2%] p=0.907  | pooled +0.0056 [ +1.0%] p=0.687 
+   D. Trend + interaction: pre-1973     macro +0.0214 [ +4.3%] p=0.545  | pooled +0.0180 [ +3.2%] p=0.689 
+   D. Trend + interaction: post-1973    macro -0.0119 [ -2.4%] p=0.353  | pooled +0.0051 [ +0.9%] p=0.837    SIGN DIFFERS
+
+Loughran-McDonald Pos
+   A. Recession only                    macro -0.0753 [ -6.0%] p=0.390  | pooled -0.0334 [ -2.7%] p=0.646 
+   B. + linear trend                    macro -0.0149 [ -1.2%] p=0.728  | pooled +0.0137 [ +1.1%] p=0.712    SIGN DIFFERS
+   C. + decade fixed effects            macro -0.0215 [ -1.7%] p=0.416  | pooled +0.0053 [ +0.4%] p=0.855    SIGN DIFFERS
+   D. Trend + interaction: pre-1973     macro -0.0022 [ -0.2%] p=0.977  | pooled +0.0060 [ +0.5%] p=0.926    SIGN DIFFERS
+   D. Trend + interaction: post-1973    macro -0.0077 [ -0.6%] p=0.847  | pooled +0.0205 [ +1.7%] p=0.637    SIGN DIFFERS
+
+Loughran-McDonald Neg
+   A. Recession only                    macro +0.0250 [ +5.3%] p=0.204  | pooled +0.0267 [ +4.5%] p=0.433 
+   B. + linear trend                    macro +0.0254 [ +5.4%] p=0.190  | pooled +0.0397 [ +6.7%] p=0.156 
+   C. + decade fixed effects            macro +0.0201 [ +4.2%] p=0.090  | pooled +0.0339 [ +5.7%] p=0.138 
+   D. Trend + interaction: pre-1973     macro +0.0291 [ +6.2%] p=0.444  | pooled +0.0205 [ +3.5%] p=0.578 
+   D. Trend + interaction: post-1973    macro +0.0285 [ +6.0%] p=0.158  | pooled +0.0610 [+10.3%] p=0.101 
+
+------------------------------------------------------------------------------
+Any month (48 quarters)
+------------------------------------------------------------------------------
+Harvard Pos
+   A. Recession only                    macro -0.0242 [ -1.1%] p=0.830  | pooled -0.0554 [ -2.5%] p=0.568 
+   B. + linear trend                    macro +0.0538 [ +2.4%] p=0.596  | pooled +0.0335 [ +1.5%] p=0.666 
+   C. + decade fixed effects            macro +0.0187 [ +0.8%] p=0.723  | pooled +0.0109 [ +0.5%] p=0.800 
+   D. Trend + interaction: pre-1973     macro +0.1905 [ +8.4%] p=0.284  | pooled +0.1288 [ +5.9%] p=0.355 
+   D. Trend + interaction: post-1973    macro -0.0061 [ -0.3%] p=0.949  | pooled -0.0090 [ -0.4%] p=0.900 
+
+Harvard Neg
+   A. Recession only                    macro +0.0113 [ +2.3%] p=0.608  | pooled +0.0050 [ +0.9%] p=0.851 
+   B. + linear trend                    macro +0.0033 [ +0.7%] p=0.859  | pooled +0.0114 [ +2.0%] p=0.655 
+   C. + decade fixed effects            macro -0.0018 [ -0.4%] p=0.842  | pooled +0.0052 [ +0.9%] p=0.694    SIGN DIFFERS
+   D. Trend + interaction: pre-1973     macro +0.0417 [ +8.4%] p=0.260  | pooled +0.0475 [ +8.3%] p=0.311 
+   D. Trend + interaction: post-1973    macro -0.0153 [ -3.1%] p=0.263  | pooled +0.0020 [ +0.4%] p=0.931    SIGN DIFFERS
+
+Loughran-McDonald Pos
+   A. Recession only                    macro -0.1058 [ -8.4%] p=0.198  | pooled -0.0608 [ -5.0%] p=0.375 
+   B. + linear trend                    macro -0.0112 [ -0.9%] p=0.785  | pooled +0.0131 [ +1.1%] p=0.711    SIGN DIFFERS
+   C. + decade fixed effects            macro -0.0192 [ -1.5%] p=0.464  | pooled +0.0069 [ +0.6%] p=0.807    SIGN DIFFERS
+   D. Trend + interaction: pre-1973     macro +0.0237 [ +1.9%] p=0.726  | pooled +0.0254 [ +2.1%] p=0.658 
+   D. Trend + interaction: post-1973    macro -0.0167 [ -1.3%] p=0.674  | pooled +0.0062 [ +0.5%] p=0.887    SIGN DIFFERS
+
+Loughran-McDonald Neg
+   A. Recession only                    macro +0.0334 [ +7.1%] p=0.119  | pooled +0.0244 [ +4.1%] p=0.429 
+   B. + linear trend                    macro +0.0345 [ +7.3%] p=0.097  | pooled +0.0453 [ +7.6%] p=0.092 
+   C. + decade fixed effects            macro +0.0203 [ +4.3%] p=0.074  | pooled +0.0350 [ +5.9%] p=0.102 
+   D. Trend + interaction: pre-1973     macro +0.0547 [+11.6%] p=0.185  | pooled +0.0452 [ +7.6%] p=0.229 
+   D. Trend + interaction: post-1973    macro +0.0270 [ +5.7%] p=0.170  | pooled +0.0565 [ +9.6%] p=0.112 
+
+------------------------------------------------------------------------------
+OVERALL AGREEMENT (both recession definitions)
+------------------------------------------------------------------------------
+Same sign:                  28/40
+Same 5% significance call:  40/40
+
+------------------------------------------------------------------------------
+HOW TO READ THIS
+------------------------------------------------------------------------------
+- If both methods give the same sign and the same significance verdict,
+  the regression conclusion does not depend on how ads are combined
+  into quarters, even if the magnitudes differ.
+- Sign differences are only meaningful when the estimates are clearly
+  away from zero; a flip between two near-zero, non-significant
+  estimates means 'no detectable effect' under both methods.
+- Pooling gives long records more weight. Long records are
+  disproportionately financial notices, supplements and advertorials
+  (Week 4), so pooled results describe overall advertising language
+  and average-of-ratios results describe the typical advertisement.
+- All results are descriptive associations, not causal effects.
