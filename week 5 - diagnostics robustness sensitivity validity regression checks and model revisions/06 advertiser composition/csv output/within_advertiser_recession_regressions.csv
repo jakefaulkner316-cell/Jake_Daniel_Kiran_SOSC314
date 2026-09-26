@@ -1,0 +1,21 @@
+Outcome,Model_Code,Model,Coefficient_pp,SE_clustered_year,p_value,CI_low,CI_high,Outcome_mean_pp,Effect_pct_of_mean,N_ads
+Harvard positive,A,A. Recession only,-0.031457,0.108299,0.772374,-0.247682,0.184769,2.198428,-1.430867,156557
+Harvard positive,B,B. + advertiser FE,-0.012451,0.049034,0.80035,-0.110351,0.08545,2.198428,-0.56634,156557
+Harvard positive,C,C. + decade FE,-0.007982,0.051738,0.877865,-0.111281,0.095317,2.198428,-0.363072,156557
+Harvard positive,D,D. + decade FE + sector FE,-0.002037,0.051366,0.968494,-0.104592,0.100519,2.198428,-0.092635,156557
+Harvard positive,E,E. + decade FE + advertiser FE,-0.011666,0.034397,0.735563,-0.080341,0.057009,2.198428,-0.530658,156557
+Harvard negative,A,A. Recession only,0.003863,0.019845,0.846251,-0.035758,0.043484,0.46889,0.823881,156557
+Harvard negative,B,B. + advertiser FE,0.000402,0.009827,0.967519,-0.019218,0.020021,0.46889,0.085664,156557
+Harvard negative,C,C. + decade FE,-0.001822,0.007932,0.819046,-0.017658,0.014014,0.46889,-0.388527,156557
+Harvard negative,D,D. + decade FE + sector FE,-0.002742,0.006943,0.694109,-0.016604,0.011119,0.46889,-0.584883,156557
+Harvard negative,E,E. + decade FE + advertiser FE,-0.003614,0.006385,0.57333,-0.016363,0.009135,0.46889,-0.770747,156557
+Loughran-McDonald positive,A,A. Recession only,-0.06891,0.074941,0.361166,-0.218535,0.080714,1.222778,-5.635568,156557
+Loughran-McDonald positive,B,B. + advertiser FE,-0.028274,0.02901,0.333295,-0.086194,0.029645,1.222778,-2.312283,156557
+Loughran-McDonald positive,C,C. + decade FE,-0.031303,0.024016,0.196967,-0.079252,0.016647,1.222778,-2.559962,156557
+Loughran-McDonald positive,D,D. + decade FE + sector FE,-0.027144,0.022888,0.239892,-0.07284,0.018553,1.222778,-2.219831,156557
+Loughran-McDonald positive,E,E. + decade FE + advertiser FE,-0.041833,0.016699,0.014719,-0.075174,-0.008492,1.222778,-3.421111,156557
+Loughran-McDonald negative,A,A. Recession only,0.021095,0.017283,0.226608,-0.013412,0.055602,0.456482,4.621147,156557
+Loughran-McDonald negative,B,B. + advertiser FE,0.026945,0.013594,0.051635,-0.000197,0.054087,0.456482,5.902734,156557
+Loughran-McDonald negative,C,C. + decade FE,0.015795,0.010291,0.129613,-0.004752,0.036342,0.456482,3.460109,156557
+Loughran-McDonald negative,D,D. + decade FE + sector FE,0.015326,0.010613,0.153457,-0.005864,0.036515,0.456482,3.35735,156557
+Loughran-McDonald negative,E,E. + decade FE + advertiser FE,0.015116,0.011923,0.209333,-0.008689,0.038921,0.456482,3.311379,156557
