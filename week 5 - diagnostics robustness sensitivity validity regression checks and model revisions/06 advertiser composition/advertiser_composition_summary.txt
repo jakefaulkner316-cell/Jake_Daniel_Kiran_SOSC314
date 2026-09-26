@@ -1,5 +1,5 @@
 WEEK 5 DIAGNOSTIC 06: ADVERTISER COMPOSITION vs WITHIN-ADVERTISER TONE
-==============================================================================
+
 
 Question (Week 4 feedback): does the recession difference reflect a change in
 WHICH firms advertise, or the SAME firms changing tone?
@@ -9,9 +9,8 @@ Regression sample (advertisers with 2+ ads): 156,557 ads, 10,904 advertisers.
 Advertisers present in both recession and other quarters: 3,991 (79.0% of regression-sample ads).
 Sector rules classify 46.8% of ads; the rest are 'Other / unclassified'.
 
-------------------------------------------------------------------------------
 PART 1: ADVERTISER MIX IN RECESSION QUARTERS (Recession + decade FE, HAC 4 lags)
-------------------------------------------------------------------------------
+
 Ads                                                  mean   628.79 | recession diff -2.483 (-0.4%) | p=0.886 
 Distinct_Advertisers                                 mean   329.05 | recession diff +6.468 (+2.0%) | p=0.555 
 Ads_per_Advertiser                                   mean     1.99 | recession diff -0.039 (-2.0%) | p=0.219 
@@ -45,7 +44,7 @@ Other / unclassified                            2.214        0.490   1.252   0.4
 ------------------------------------------------------------------------------
 PART 2: RECESSION EFFECT WITH AND WITHOUT ADVERTISER FIXED EFFECTS
 (ad-level; SE clustered by year; same sample in every model)
-------------------------------------------------------------------------------
+
 Harvard positive
    A. Recession only                  -0.0315 pp (  -1.4% of mean) p=0.772 
    B. + advertiser FE                 -0.0125 pp (  -0.6% of mean) p=0.800 
@@ -76,7 +75,7 @@ Loughran-McDonald negative
 
 ------------------------------------------------------------------------------
 PART 3: SHIFT-SHARE DECOMPOSITION BY SECTOR (pp)
-------------------------------------------------------------------------------
+
                    Outcome                             Scope  Total_diff_pp  Between_sector_mix_pp  Within_sector_tone_pp  Mix_share_of_total_pct
           Harvard positive                  All years pooled        -0.0292                -0.0132                -0.0159                 45.3783
           Harvard positive Within decades (weighted average)        -0.0079                -0.0077                -0.0002                 98.0695
@@ -89,7 +88,7 @@ Loughran-McDonald negative Within decades (weighted average)         0.0169     
 
 ------------------------------------------------------------------------------
 HOW TO READ THIS
-------------------------------------------------------------------------------
+
 - Part 1 asks whether the MIX changes. A sector whose share rises or falls in
   recessions is a candidate composition channel, but only if that sector's
   typical tone differs from others (see mean sentiment by sector).
