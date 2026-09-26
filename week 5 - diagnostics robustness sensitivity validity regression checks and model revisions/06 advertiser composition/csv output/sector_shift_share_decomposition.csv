@@ -1,0 +1,9 @@
+Outcome,Scope,Total_diff_pp,Between_sector_mix_pp,Within_sector_tone_pp,Mix_share_of_total_pct
+Harvard positive,All years pooled,-0.029194,-0.013248,-0.015946,45.378288
+Harvard positive,Within decades (weighted average),-0.007882,-0.00773,-0.000152,98.069495
+Harvard negative,All years pooled,0.005378,0.0014,0.003978,26.038659
+Harvard negative,Within decades (weighted average),-0.00028,-0.000768,0.000488,
+Loughran-McDonald positive,All years pooled,-0.06805,-0.012745,-0.055306,18.728073
+Loughran-McDonald positive,Within decades (weighted average),-0.03276,-0.001808,-0.030952,5.519363
+Loughran-McDonald negative,All years pooled,0.021466,-0.00079,0.022256,-3.679374
+Loughran-McDonald negative,Within decades (weighted average),0.016891,0.000247,0.016644,1.463284
