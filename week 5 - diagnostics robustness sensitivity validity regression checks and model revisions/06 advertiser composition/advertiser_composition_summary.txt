@@ -1,0 +1,109 @@
+WEEK 5 DIAGNOSTIC 06: ADVERTISER COMPOSITION vs WITHIN-ADVERTISER TONE
+==============================================================================
+
+Question (Week 4 feedback): does the recession difference reflect a change in
+WHICH firms advertise, or the SAME firms changing tone?
+
+Quality-filtered ads: 168,515; normalised advertisers: 22,862.
+Regression sample (advertisers with 2+ ads): 156,557 ads, 10,904 advertisers.
+Advertisers present in both recession and other quarters: 3,991 (79.0% of regression-sample ads).
+Sector rules classify 46.8% of ads; the rest are 'Other / unclassified'.
+
+------------------------------------------------------------------------------
+PART 1: ADVERTISER MIX IN RECESSION QUARTERS (Recession + decade FE, HAC 4 lags)
+------------------------------------------------------------------------------
+Ads                                                  mean   628.79 | recession diff -2.483 (-0.4%) | p=0.886 
+Distinct_Advertisers                                 mean   329.05 | recession diff +6.468 (+2.0%) | p=0.555 
+Ads_per_Advertiser                                   mean     1.99 | recession diff -0.039 (-2.0%) | p=0.219 
+Share_Long_Running                                   mean  54.0% | recession diff -1.74 pp | p=0.070 
+Share: Banking & finance                             mean  18.8% | recession diff +1.10 pp | p=0.275 
+Share: Air travel & hotels                           mean   7.2% | recession diff -0.73 pp | p=0.137 
+Share: Autos & transport                             mean   3.6% | recession diff -0.92 pp | p=0.009*
+Share: Technology & electronics                      mean   5.5% | recession diff -1.10 pp | p=0.013*
+Share: Energy, industry & materials                  mean   4.2% | recession diff +0.82 pp | p=0.006*
+Share: Government, trade & development               mean   2.1% | recession diff +0.17 pp | p=0.385 
+Share: Education, jobs & conferences                 mean   2.4% | recession diff +0.16 pp | p=0.660 
+Share: Media & publishing (incl. The Economist)      mean   1.4% | recession diff -0.15 pp | p=0.413 
+Share: Luxury & consumer goods                       mean   1.4% | recession diff -0.16 pp | p=0.162 
+Share: Other / unclassified                          mean  53.2% | recession diff +0.80 pp | p=0.345 
+(10 sector shares tested: about 0.5 would reach p < .05 by chance.)
+
+Mean sentiment by sector (pp) - composition can only matter if sectors differ:
+                                          Harvard_Pos  Harvard_Neg  LM_Pos  LM_Neg    Ads
+Sector                                                                                   
+Banking & finance                               1.983        0.472   0.990   0.406  32769
+Air travel & hotels                             2.449        0.234   1.375   0.253  13238
+Autos & transport                               2.369        0.585   1.423   0.535   5500
+Technology & electronics                        2.062        0.490   1.410   0.525   8007
+Energy, industry & materials                    1.909        0.548   1.129   0.546   7300
+Government, trade & development                 2.120        0.443   0.999   0.517   3852
+Education, jobs & conferences                   2.458        0.439   1.273   0.465   3722
+Media & publishing (incl. The Economist)        2.304        0.587   0.964   0.632   2390
+Luxury & consumer goods                         3.165        0.373   1.308   0.402   2117
+Other / unclassified                            2.214        0.490   1.252   0.480  89620
+
+------------------------------------------------------------------------------
+PART 2: RECESSION EFFECT WITH AND WITHOUT ADVERTISER FIXED EFFECTS
+(ad-level; SE clustered by year; same sample in every model)
+------------------------------------------------------------------------------
+Harvard positive
+   A. Recession only                  -0.0315 pp (  -1.4% of mean) p=0.772 
+   B. + advertiser FE                 -0.0125 pp (  -0.6% of mean) p=0.800 
+   C. + decade FE                     -0.0080 pp (  -0.4% of mean) p=0.878 
+   D. + decade FE + sector FE         -0.0020 pp (  -0.1% of mean) p=0.968 
+   E. + decade FE + advertiser FE     -0.0117 pp (  -0.5% of mean) p=0.736 
+
+Harvard negative
+   A. Recession only                  +0.0039 pp (  +0.8% of mean) p=0.846 
+   B. + advertiser FE                 +0.0004 pp (  +0.1% of mean) p=0.968 
+   C. + decade FE                     -0.0018 pp (  -0.4% of mean) p=0.819 
+   D. + decade FE + sector FE         -0.0027 pp (  -0.6% of mean) p=0.694 
+   E. + decade FE + advertiser FE     -0.0036 pp (  -0.8% of mean) p=0.573 
+
+Loughran-McDonald positive
+   A. Recession only                  -0.0689 pp (  -5.6% of mean) p=0.361 
+   B. + advertiser FE                 -0.0283 pp (  -2.3% of mean) p=0.333 
+   C. + decade FE                     -0.0313 pp (  -2.6% of mean) p=0.197 
+   D. + decade FE + sector FE         -0.0271 pp (  -2.2% of mean) p=0.240 
+   E. + decade FE + advertiser FE     -0.0418 pp (  -3.4% of mean) p=0.015*
+
+Loughran-McDonald negative
+   A. Recession only                  +0.0211 pp (  +4.6% of mean) p=0.227 
+   B. + advertiser FE                 +0.0269 pp (  +5.9% of mean) p=0.052 
+   C. + decade FE                     +0.0158 pp (  +3.5% of mean) p=0.130 
+   D. + decade FE + sector FE         +0.0153 pp (  +3.4% of mean) p=0.153 
+   E. + decade FE + advertiser FE     +0.0151 pp (  +3.3% of mean) p=0.209 
+
+------------------------------------------------------------------------------
+PART 3: SHIFT-SHARE DECOMPOSITION BY SECTOR (pp)
+------------------------------------------------------------------------------
+                   Outcome                             Scope  Total_diff_pp  Between_sector_mix_pp  Within_sector_tone_pp  Mix_share_of_total_pct
+          Harvard positive                  All years pooled        -0.0292                -0.0132                -0.0159                 45.3783
+          Harvard positive Within decades (weighted average)        -0.0079                -0.0077                -0.0002                 98.0695
+          Harvard negative                  All years pooled         0.0054                 0.0014                 0.0040                 26.0387
+          Harvard negative Within decades (weighted average)        -0.0003                -0.0008                 0.0005                     NaN
+Loughran-McDonald positive                  All years pooled        -0.0681                -0.0127                -0.0553                 18.7281
+Loughran-McDonald positive Within decades (weighted average)        -0.0328                -0.0018                -0.0310                  5.5194
+Loughran-McDonald negative                  All years pooled         0.0215                -0.0008                 0.0223                 -3.6794
+Loughran-McDonald negative Within decades (weighted average)         0.0169                 0.0002                 0.0166                  1.4633
+
+------------------------------------------------------------------------------
+HOW TO READ THIS
+------------------------------------------------------------------------------
+- Part 1 asks whether the MIX changes. A sector whose share rises or falls in
+  recessions is a candidate composition channel, but only if that sector's
+  typical tone differs from others (see mean sentiment by sector).
+- Part 2 is the direct test. Model C compares recession and other quarters
+  within decades. Model E additionally compares each advertiser only with
+  itself. If C and E are similar, composition is not what drives the
+  recession difference; if E moves toward zero, it is.
+- Model D (sector FE) shows how much of any composition effect is broad
+  industry mix, as opposed to individual firms.
+- Part 3 gives the same idea as an accounting identity at sector level: the
+  'between-sector' term is what the difference would be if every sector kept
+  its tone and only the sector mix changed.
+- Ad-level estimates weight each ad equally, so they need not equal the
+  quarterly averages in scripts 03a-04d, which weight each quarter equally.
+- Sector rules are keyword-based and coarse; Part 2's advertiser FE do not
+  depend on them. Brand names in the source data are sometimes wrong (see 01b).
+- All results are descriptive associations, not causal effects.
