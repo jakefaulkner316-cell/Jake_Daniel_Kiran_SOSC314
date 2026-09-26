@@ -1,0 +1,29 @@
+Measure,Model,Mean,Recession_diff,HAC_SE,HAC_p_value,CI_low,CI_high,Diff_pct_of_mean
+Ads,Recession only,628.78731,22.86789,49.28347,0.64302,-74.16744,119.90322,3.63682
+Ads,Recession + decade FE,628.78731,-2.48294,17.29862,0.88598,-36.54678,31.58091,-0.39488
+Distinct_Advertisers,Recession only,329.04851,23.71576,34.29484,0.48984,-43.80811,91.23963,7.20738
+Distinct_Advertisers,Recession + decade FE,329.04851,6.4681,10.94873,0.55519,-15.09177,28.02797,1.9657
+Ads_per_Advertiser,Recession only,1.99056,-0.06064,0.07651,0.42875,-0.21128,0.09,-3.04621
+Ads_per_Advertiser,Recession + decade FE,1.99056,-0.03935,0.03194,0.21902,-0.10225,0.02354,-1.97705
+Share_Long_Running,Recession only,0.53978,-0.01708,0.01012,0.09258,-0.037,0.00284,-3.16378
+Share_Long_Running,Recession + decade FE,0.53978,-0.01743,0.0096,0.07043,-0.03633,0.00146,-3.22924
+Share: Banking & finance,Recession only,0.18834,0.02664,0.01839,0.14861,-0.00957,0.06285,14.14498
+Share: Banking & finance,Recession + decade FE,0.18834,0.01102,0.01007,0.27489,-0.00881,0.03085,5.85056
+Share: Air travel & hotels,Recession only,0.07246,-0.00526,0.00898,0.55886,-0.02294,0.01242,-7.2528
+Share: Air travel & hotels,Recession + decade FE,0.07246,-0.00728,0.00489,0.13723,-0.0169,0.00234,-10.05088
+Share: Autos & transport,Recession only,0.03634,-0.00799,0.00622,0.20007,-0.02023,0.00426,-21.97538
+Share: Autos & transport,Recession + decade FE,0.03634,-0.00923,0.00352,0.00921,-0.01616,-0.0023,-25.40804
+Share: Technology & electronics,Recession only,0.05535,-0.01712,0.00895,0.05695,-0.03475,0.00051,-30.93177
+Share: Technology & electronics,Recession + decade FE,0.05535,-0.01101,0.00438,0.01269,-0.01964,-0.00237,-19.88256
+"Share: Energy, industry & materials",Recession only,0.04211,0.00529,0.0065,0.41603,-0.0075,0.01808,12.56643
+"Share: Energy, industry & materials",Recession + decade FE,0.04211,0.00825,0.00296,0.00578,0.00241,0.01408,19.58325
+"Share: Government, trade & development",Recession only,0.0208,0.00338,0.00365,0.35497,-0.0038,0.01056,16.25647
+"Share: Government, trade & development",Recession + decade FE,0.0208,0.00172,0.00197,0.38512,-0.00217,0.0056,8.25794
+"Share: Education, jobs & conferences",Recession only,0.024,-0.0027,0.00486,0.5787,-0.01227,0.00687,-11.25827
+"Share: Education, jobs & conferences",Recession + decade FE,0.024,0.00163,0.0037,0.66004,-0.00566,0.00892,6.79258
+Share: Media & publishing (incl. The Economist),Recession only,0.01413,-0.00212,0.00213,0.31929,-0.00632,0.00207,-15.03455
+Share: Media & publishing (incl. The Economist),Recession + decade FE,0.01413,-0.00151,0.00185,0.41291,-0.00515,0.00212,-10.71115
+Share: Luxury & consumer goods,Recession only,0.01433,-0.00301,0.00205,0.14377,-0.00706,0.00103,-21.02922
+Share: Luxury & consumer goods,Recession + decade FE,0.01433,-0.00155,0.0011,0.16174,-0.00373,0.00063,-10.81852
+Share: Other / unclassified,Recession only,0.53214,0.00289,0.01468,0.84408,-0.02601,0.0318,0.54314
+Share: Other / unclassified,Recession + decade FE,0.53214,0.00797,0.00843,0.34517,-0.00863,0.02457,1.49823
