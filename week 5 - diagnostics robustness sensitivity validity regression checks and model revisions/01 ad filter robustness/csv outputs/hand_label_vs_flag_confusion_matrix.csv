@@ -1,0 +1,7 @@
+Flag,NonAd_flagged (true positive),Ad_flagged (false positive),NonAd_not_flagged (false negative),Ad_not_flagged (true negative)
+Any flag,2,0,35,163
+Non-advertiser blocklist,0,0,37,163
+Multi-page record,0,0,37,163
+Too short,2,0,35,163
+"Blocklist, case-insensitive (revised)",11,0,26,163
+"Any flag, revised blocklist",13,0,24,163
