@@ -1,0 +1,31 @@
+Flag,Metric,Count,Denominator,Value,CI95_low,CI95_high,Meaning
+Any flag,Precision,2,2,1.0,0.3424,1.0,"Of the records the flag removes, share that are non-ads"
+Any flag,Recall,2,37,0.0541,0.015,0.177,"Of the non-ads, share that the flag catches"
+Any flag,Specificity,163,163,1.0,0.977,1.0,"Of the genuine ads, share that the flag keeps"
+Any flag,Agreement,165,200,0.825,0.7664,0.8714,Share of records where flag and hand label agree
+Any flag,NonAd_share_left_after_filtering,35,198,0.1768,0.1299,0.2359,"Of the records the flag keeps, share that are non-ads"
+Non-advertiser blocklist,Precision,0,0,,,,"Of the records the flag removes, share that are non-ads"
+Non-advertiser blocklist,Recall,0,37,0.0,0.0,0.0941,"Of the non-ads, share that the flag catches"
+Non-advertiser blocklist,Specificity,163,163,1.0,0.977,1.0,"Of the genuine ads, share that the flag keeps"
+Non-advertiser blocklist,Agreement,163,200,0.815,0.7554,0.8627,Share of records where flag and hand label agree
+Non-advertiser blocklist,NonAd_share_left_after_filtering,37,200,0.185,0.1373,0.2446,"Of the records the flag keeps, share that are non-ads"
+Multi-page record,Precision,0,0,,,,"Of the records the flag removes, share that are non-ads"
+Multi-page record,Recall,0,37,0.0,0.0,0.0941,"Of the non-ads, share that the flag catches"
+Multi-page record,Specificity,163,163,1.0,0.977,1.0,"Of the genuine ads, share that the flag keeps"
+Multi-page record,Agreement,163,200,0.815,0.7554,0.8627,Share of records where flag and hand label agree
+Multi-page record,NonAd_share_left_after_filtering,37,200,0.185,0.1373,0.2446,"Of the records the flag keeps, share that are non-ads"
+Too short,Precision,2,2,1.0,0.3424,1.0,"Of the records the flag removes, share that are non-ads"
+Too short,Recall,2,37,0.0541,0.015,0.177,"Of the non-ads, share that the flag catches"
+Too short,Specificity,163,163,1.0,0.977,1.0,"Of the genuine ads, share that the flag keeps"
+Too short,Agreement,165,200,0.825,0.7664,0.8714,Share of records where flag and hand label agree
+Too short,NonAd_share_left_after_filtering,35,198,0.1768,0.1299,0.2359,"Of the records the flag keeps, share that are non-ads"
+"Blocklist, case-insensitive (revised)",Precision,11,11,1.0,0.7412,1.0,"Of the records the flag removes, share that are non-ads"
+"Blocklist, case-insensitive (revised)",Recall,11,37,0.2973,0.1749,0.4578,"Of the non-ads, share that the flag catches"
+"Blocklist, case-insensitive (revised)",Specificity,163,163,1.0,0.977,1.0,"Of the genuine ads, share that the flag keeps"
+"Blocklist, case-insensitive (revised)",Agreement,174,200,0.87,0.8163,0.9097,Share of records where flag and hand label agree
+"Blocklist, case-insensitive (revised)",NonAd_share_left_after_filtering,26,189,0.1376,0.0956,0.1939,"Of the records the flag keeps, share that are non-ads"
+"Any flag, revised blocklist",Precision,13,13,1.0,0.7719,1.0,"Of the records the flag removes, share that are non-ads"
+"Any flag, revised blocklist",Recall,13,37,0.3514,0.2183,0.5124,"Of the non-ads, share that the flag catches"
+"Any flag, revised blocklist",Specificity,163,163,1.0,0.977,1.0,"Of the genuine ads, share that the flag keeps"
+"Any flag, revised blocklist",Agreement,176,200,0.88,0.8277,0.918,Share of records where flag and hand label agree
+"Any flag, revised blocklist",NonAd_share_left_after_filtering,24,187,0.1283,0.0878,0.1839,"Of the records the flag keeps, share that are non-ads"
