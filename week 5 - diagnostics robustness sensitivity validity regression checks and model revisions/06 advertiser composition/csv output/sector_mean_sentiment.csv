@@ -1,0 +1,11 @@
+Sector,Harvard_Pos,Harvard_Neg,LM_Pos,LM_Neg,Ads
+Banking & finance,1.9831,0.4718,0.9898,0.4058,32769
+Air travel & hotels,2.4489,0.2341,1.3746,0.253,13238
+Autos & transport,2.3685,0.5847,1.4226,0.5354,5500
+Technology & electronics,2.0622,0.4902,1.4101,0.5255,8007
+"Energy, industry & materials",1.9086,0.5484,1.1291,0.5456,7300
+"Government, trade & development",2.1202,0.4428,0.9995,0.5167,3852
+"Education, jobs & conferences",2.4576,0.4392,1.273,0.4649,3722
+Media & publishing (incl. The Economist),2.3038,0.5866,0.9641,0.6316,2390
+Luxury & consumer goods,3.1645,0.3728,1.3079,0.4019,2117
+Other / unclassified,2.2137,0.4897,1.2521,0.48,89620
