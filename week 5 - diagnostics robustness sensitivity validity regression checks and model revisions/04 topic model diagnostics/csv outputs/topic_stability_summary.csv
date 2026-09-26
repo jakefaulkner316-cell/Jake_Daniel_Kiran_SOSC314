@@ -1,0 +1,3 @@
+k,mean_matched_cosine,median_matched_cosine,min_matched_cosine,stable_topics,share_stable_topics,mean_top10_overlap_words,dominant_topic_agreement_across_seeds,held_out_perplexity_seed1,held_out_perplexity_seed2
+10,0.7416,0.7329,0.4001,4,0.4,5.8,0.5633,2496.9916,2510.2227
+20,0.5879,0.6076,0.0516,4,0.2,4.4,0.3701,2731.9306,2697.1344
