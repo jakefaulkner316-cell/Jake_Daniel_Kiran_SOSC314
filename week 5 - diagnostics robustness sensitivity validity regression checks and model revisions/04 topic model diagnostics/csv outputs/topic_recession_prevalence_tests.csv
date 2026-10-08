@@ -19,3 +19,4 @@ topic,top_words,stable_across_seeds,matched_cosine,mean_topic_share,model,recess
 8,"limited, bank, international, banque, securities, incorporated, corporation, company, morgan, brothers",True,0.91371,0.03621,Recession + decade FE,-0.00281,0.00456,0.53881,-0.0118,0.00618,-7.75727
 9,"bank, london, office, new, banking, york, street, branches, japan, offices",True,0.96546,0.11781,Recession only,0.02251,0.01722,0.19215,-0.01139,0.05641,19.1099
 9,"bank, london, office, new, banking, york, street, branches, japan, offices",True,0.96546,0.11781,Recession + decade FE,0.01437,0.00544,0.00878,0.00365,0.02509,12.20019
+ 
