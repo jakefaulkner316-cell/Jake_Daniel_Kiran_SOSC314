@@ -1,0 +1,71 @@
+========================================================================
+Task b: filter versions and model runner
+========================================================================
+Harvard file: /content/drive/MyDrive/SOSC314_data/week_three_ads_with_sentiment.csv
+LM file:      /content/drive/MyDrive/SOSC314_data/economist_loughran_mcdonald_sentiment.csv
+[PASS] Flags file has the canonical row count  (172,219)
+[PASS] Flags row_id is the 0-based row position
+[PASS] v1 flags the Week 4 count  (3,303 vs 3,303)
+[PASS] v2 flags the Week 5 01b count  (3,704 vs 3,704)
+[PASS] v2 contains every v1 record
+Brand blocklist: 3 brands. Extra records caught by case-insensitive matching: 401
+[PASS] NBER table has 268 quarters and 42 majority recession quarters  (268 quarters, 42 recession)
+[PASS] Every record falls in an NBER quarter
+Advertiser key: normalise_brand() from script 06; 23,419 brand strings -> 23,078 advertisers
+
+Harvard columns (population Week 4 used: all records, Ads-count mismatch 10):
+  Pos: column 'Positiv_Count' / tokens(flags file)  -> macro max error 9.71e-17; pooled denominator tokens(flags file), max error 9.71e-17
+[PASS] Harvard Pos reproduces Week 4 macro series  (9.7e-17)
+[PASS] Harvard Pos reproduces Week 4 pooled series  (9.7e-17)
+  Neg: column 'Negativ_Count' / tokens(flags file)  -> macro max error 9.89e-17; pooled denominator tokens(flags file), max error 9.89e-17
+[PASS] Harvard Neg reproduces Week 4 macro series  (9.9e-17)
+[PASS] Harvard Neg reproduces Week 4 pooled series  (9.9e-17)
+
+Loughran columns (population Week 4 used: all records, Ads-count mismatch 10):
+  Pos: column 'Positive_Count' / tokens(flags file)  -> macro max error 9.89e-17; pooled denominator tokens(flags file), max error 9.89e-17
+[PASS] Loughran Pos reproduces Week 4 macro series  (9.9e-17)
+[PASS] Loughran Pos reproduces Week 4 pooled series  (9.9e-17)
+  Neg: column 'Negative_Count' / tokens(flags file)  -> macro max error 9.89e-17; pooled denominator tokens(flags file), max error 9.97e-17
+[PASS] Loughran Neg reproduces Week 4 macro series  (9.9e-17)
+[PASS] Loughran Neg reproduces Week 4 pooled series  (1.0e-16)
+
+Running models...
+   none: kept 172,219 records; ad-level sample 160,164 ads, 11,033 advertisers, 4,032 seen in both recession and expansion quarters
+     v1: kept 168,916 records; ad-level sample 156,958 ads, 10,905 advertisers, 3,992 seen in both recession and expansion quarters
+     v2: kept 168,515 records; ad-level sample 156,557 ads, 10,904 advertisers, 3,991 seen in both recession and expansion quarters
+
+Week 5 reference values were computed on: all records (version 'none' here)
+[PASS] LM positive quarterly raw matches 04c  (-5.96% vs -6.0%)
+[PASS] LM positive quarterly trend matches 04c  (-1.18% vs -1.2%)
+[PASS] LM positive quarterly decade matches 04c  (-1.70% vs -1.7%)
+[PASS] An ad-level sample matches script 06 exactly (ads)  (156,557 ads in version 'v2' vs 156,557)
+[PASS] Same version matches 06's advertisers seen in both periods  (3,991 vs 3,991)
+Script 06 used the population of version 'v2'.
+[PASS] LM positive ad-level decade matches 06  (-2.56% (version v2) vs -2.6%)
+[PASS] LM positive ad-level decade+advertiser matches 06  (-3.42% (version v2) vs -3.4%)
+
+LM positive, majority definition: % of mean (p-value) by filter version
+version                            none               v1               v2
+model                                                                    
+quarterly | raw         -5.96 (p=0.389)  -5.87 (p=0.408)  -6.29 (p=0.381)
+quarterly | trend       -1.18 (p=0.728)  -0.96 (p=0.775)  -1.22 (p=0.716)
+quarterly | decade      -1.70 (p=0.416)  -1.61 (p=0.437)  -1.76 (p=0.389)
+ad | decade             -2.57 (p=0.207)  -2.49 (p=0.211)  -2.56 (p=0.197)
+ad | decade+advertiser  -3.62 (p=0.009)  -3.40 (p=0.016)  -3.42 (p=0.015)
+
+All four outcomes, quarterly decade-effects model (macro), % of mean:
+version                 none               v1               v2
+series                                                        
+Harvard Neg  +0.21 (p=0.906)  +0.06 (p=0.972)  +0.11 (p=0.950)
+Harvard Pos  +0.65 (p=0.781)  +0.90 (p=0.704)  +0.93 (p=0.695)
+LM Neg       +4.25 (p=0.089)  +4.86 (p=0.059)  +4.98 (p=0.057)
+LM Pos       -1.70 (p=0.416)  -1.61 (p=0.437)  -1.76 (p=0.389)
+
+Estimates with p < .05: 5 of 168 (about 8 expected by chance if there were no effects at all).
+
+Built-in checks: 22 passed, 0 warnings, 0 failed
+Outputs:
+  week 7 - final adjustments/model runner/csv outputs/filter_versions.csv
+  week 7 - final adjustments/model runner/csv outputs/model_results_by_filter_version.csv
+  week 7 - final adjustments/model runner/robustness tables/model_runner_summary.txt
+  week 7 - final adjustments/model runner/diagnostic images/lm_positive_by_filter_version.png
