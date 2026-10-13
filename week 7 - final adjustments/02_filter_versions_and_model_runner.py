@@ -244,12 +244,15 @@ log(f"Brand blocklist: {len(blocked)} brands. Extra records caught by case-insen
 
 # Keep any later versions (task c) already saved in the file, then save
 vfile = OUT_CSV / "filter_versions.csv"
-if vfile.exists():
-    old = pd.read_csv(vfile)
+for src in (vfile, DRIVE_DATA / "model runner" / "csv outputs" / "filter_versions.csv"):
+    if not src.exists():
+        continue
+    old = pd.read_csv(src)
     for c in old.columns:
         if c.startswith("flag_") and c not in versions.columns and len(old) == len(versions):
-            versions[c] = old[c].astype(bool)
-            log(f"Kept later filter version from file: {c}")
+            versions[c] = old[c].astype(str).str.lower().eq("true")
+            log(f"Kept later filter version from {src.parent.parent.name}/.../{src.name}: {c} "
+                f"({int(versions[c].sum()):,} records)")
 versions.to_csv(vfile, index=False)
 VERSION_COLS = ["none"] + [c for c in versions.columns if c.startswith("flag_")]
 
