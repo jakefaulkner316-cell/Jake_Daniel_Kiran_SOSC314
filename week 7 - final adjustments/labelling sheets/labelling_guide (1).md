@@ -1,7 +1,5 @@
 # Labelling Guide: Advertisement vs Non-Advertisement
 
-*SOSC 314 final phase, task a. Used for the second hand-labelled sample (about 150 records, all decades).*
-
 ## 1. Why we are labelling
 
 Our sentiment scores only describe advertising language if the records are advertisements. The Week 4 filter caught 2 of 37 non-ads in Kiran's first 200 labels (recall 5%). The case-insensitive fix raised this to 13 of 37 (35%). Those labels all come from 2012 to 2014. This sample covers every decade from 1948 to 2014, so we can:
@@ -67,16 +65,7 @@ Leave every other column unchanged. Do not sort the sheet or delete rows. `label
 
 `row_id_0based` starts at 0. Kiran's first file used a `row_id` starting at 1. The new column name is there so that mistake cannot happen again.
 
-## 6. Workflow
-
-1. **Calibrate first.** Before starting, Kiran and Daniel each label the first 5 rows, compare answers and agree on any rule that was unclear. Add the agreed rule to section 4 of this guide.
-2. **Label everything.** Kiran labels all rows in `labelling_sheet_main.xlsx`. Expect roughly 30 to 40 seconds per record, about 1.5 to 2 hours in total. Work in two sittings.
-3. **Double-label a subset.** Daniel labels the 30 rows in `labelling_sheet_second_coder.xlsx` without looking at Kiran's answers. The rows appear in a different order.
-4. **Measure agreement.** We compute Cohen's kappa on `is_ad` and on `category`. A kappa above about 0.6 is usually read as substantial agreement.
-5. **Resolve disagreements.** Discuss each disagreement and record the agreed answer in `final_category`. Keep both original answers.
-6. **Return the file** to `final phase/01 ad filter tightening/labelling sheets/` with `_labelled` added to the file name.
-
-## 7. Why the sample is not purely random
+## 6. Why the sample is not purely random
 
 Non-ads are a minority of records, so a purely random sample of 150 would contain only about 25 to 30 of them. To see more non-ads, each decade is split into three groups and sampled separately:
 
