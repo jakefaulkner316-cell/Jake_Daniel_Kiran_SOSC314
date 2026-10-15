@@ -1,0 +1,60 @@
+========================================================================
+Task c: notice and house-content rules (filter v3)
+========================================================================
+  filter versions: /content/Jake_Daniel_Kiran_SOSC314/week 7 - final adjustments/model runner/csv outputs/filter_versions.csv
+     labels (150): /content/Jake_Daniel_Kiran_SOSC314/week 7 - final adjustments/csv outputs/final_labels_150.csv
+       sample key: /content/drive/MyDrive/SOSC314_data/labelling sample/csv outputs/labelling_sample_key.csv
+ Kiran 01b merged: /content/Jake_Daniel_Kiran_SOSC314/week 5 - diagnostics robustness sensitivity validity regression checks and model revisions/01 ad filter robustness/csv outputs/hand_label_vs_flag_merged_records.csv
+         OCR text: /content/drive/MyDrive/SOSC314_data/week_three_ads_with_sentiment.csv
+[PASS] filter_versions.csv has the canonical row count  (172,219)
+[PASS] filter_versions.csv has v1 and v2
+[PASS] OCR file has the canonical row count  (172,219)
+
+flag_v3 added to /content/Jake_Daniel_Kiran_SOSC314/week 7 - final adjustments/model runner/csv outputs/filter_versions.csv
+
+Corpus counts (172,219 records):
+  v1 flags 3,303 | v2 flags 3,704 | v3 flags 12,396 (7.20%)
+  tombstone            hits  4,290  (new beyond v2:  4,282)
+  legal_notice         hits  1,536  (new beyond v2:  1,393)
+  financial_statement  hits  1,484  (new beyond v2:  1,372)
+  economist_house      hits  2,315  (new beyond v2:  1,800)
+  editorial            hits    328  (new beyond v2:     73)
+
+Rule hits by decade:
+        tombstone  legal_notice  financial_statement  economist_house  editorial  any_rule  records  any_rule_pct
+decade                                                                                                           
+1940            0            34                   25               11          0        69     3624          1.90
+1950            3           100                   74              142          0       312    25035          1.25
+1960          272           128                   64              392          0       843    28754          2.93
+1970         2109           870                  659              200          0      3688    34460         10.70
+1980         1484           324                  471              212          0      2424    31831          7.62
+1990          392            70                  154              295          0       893    27255          3.28
+2000           24             3                   37              580        261       688    16632          4.14
+2010            6             7                    0              483         67       500     4628         10.80
+[PASS] All 150 labelled records join to the corpus
+[PASS] Kiran's labels join to the corpus  (200 records, 37 non-ads)
+[PASS] v1 reproduces 01b on Kiran's labels (2/37, kappa 0.085)  (2/37, kappa 0.085)
+[PASS] v2 reproduces 01b on Kiran's labels (13/37, kappa 0.47)  (13/37, kappa 0.469)
+
+Filter validation (non-ad = positive class)
+                      label_set version  caught  non_ads  real_ads_flagged recall precision kappa recall_weighted precision_weighted
+Kiran 200 (held-out, 2012-2014)      v1       2       37                 0   0.05      1.00  0.09                                   
+Kiran 200 (held-out, 2012-2014)      v2      13       37                 0   0.35      1.00  0.47                                   
+Kiran 200 (held-out, 2012-2014)      v3      24       37                 2   0.65      0.92  0.72                                   
+   150 stratified (development)      v1       1       24                 2   0.04      0.33  0.04            0.02               0.08
+   150 stratified (development)      v2       1       24                 2   0.04      0.33  0.04            0.02               0.08
+   150 stratified (development)      v3      20       24                 2   0.83      0.91  0.85            0.79               0.82
+recall_weighted / precision_weighted: corpus-level estimates from the 150 using sampling weights.
+The 150 were used to write the rules, so their scores are optimistic; Kiran's 200 are the fair test.
+
+Still missed by v3 (development set):
+  L026 N4
+  L034 N3
+  L046 N3
+  L114 N4
+Real ads removed by v3 across both label sets: 4
+
+Precision audit: 150 flagged records (up to 30 per rule) in precision_audit_sample.csv
+
+Built-in checks: 7 passed, 0 warnings, 0 failed
+Next: re-run 02_filter_versions_and_model_runner.py to get the models under v3.
