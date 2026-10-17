@@ -1,0 +1,34 @@
+Source: /content/Jake_Daniel_Kiran_SOSC314/week 7 - final adjustments/model runner/csv outputs/model_results_by_filter_version.csv
+Compared: unfiltered corpus ('none') vs cleanest filter ('v3')
+
+Recession effect, % of mean (p) - unfiltered | cleanest filter
+
+Loughran-McDonald positive
+  Raw comparison                -5.96 (p=0.389)  |   -6.05 (p=0.380)
+  + linear trend                -1.18 (p=0.728)  |   -1.10 (p=0.709)
+  + decade effects              -1.70 (p=0.416)  |   -2.07 (p=0.303)
+  Ad level, decade effects      -2.57 (p=0.207)  |   -2.67 (p=0.181)
+  + advertiser effects          -3.62 (p=0.009)  |   -3.34 (p=0.022)
+
+Loughran-McDonald negative
+  Raw comparison                +5.28 (p=0.203)  |   +6.08 (p=0.122)
+  + linear trend                +5.38 (p=0.189)  |   +5.42 (p=0.171)
+  + decade effects              +4.25 (p=0.089)  |   +3.77 (p=0.135)
+  Ad level, decade effects      +3.10 (p=0.189)  |   +2.56 (p=0.269)
+  + advertiser effects          +3.09 (p=0.251)  |   +3.06 (p=0.239)
+
+Harvard positive
+  Raw comparison                -1.28 (p=0.809)  |   -1.22 (p=0.811)
+  + linear trend                +0.88 (p=0.838)  |   +0.96 (p=0.812)
+  + decade effects              +0.65 (p=0.781)  |   +0.29 (p=0.906)
+  Ad level, decade effects      -0.58 (p=0.806)  |   -0.82 (p=0.743)
+  + advertiser effects          -0.65 (p=0.679)  |   -0.71 (p=0.665)
+
+Harvard negative
+  Raw comparison                +0.43 (p=0.910)  |   +0.53 (p=0.899)
+  + linear trend                -0.62 (p=0.852)  |   -1.44 (p=0.647)
+  + decade effects              +0.21 (p=0.906)  |   -1.08 (p=0.537)
+  Ad level, decade effects      -0.25 (p=0.902)  |   -1.36 (p=0.472)
+  + advertiser effects          -0.74 (p=0.740)  |   -1.32 (p=0.327)
+
+Largest change between unfiltered and v3: 1.30 percentage points of the mean.
