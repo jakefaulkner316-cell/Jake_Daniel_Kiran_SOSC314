@@ -2,6 +2,8 @@
 Sosc 314
 https://inquirer.sites.fas.harvard.edu/spreadsheet_guide.htm
 
+https://jakefaulkner316-cell.github.io/Jake_Daniel_Kiran_SOSC314/
+
 **Research Question:** Does the sentiment of the Economist advertising language change between economic recessions and expansions?
 
 **Bag-of-Words** (Existing) from (I) https://inquirer.sites.fas.harvard.edu/spreadsheet_guide.htm and potentially (II) https://sraf.nd.edu/loughranmcdonald-master-dictionary/ as an alternative to satisfy the requirement of comparative methodology in Week 4.
