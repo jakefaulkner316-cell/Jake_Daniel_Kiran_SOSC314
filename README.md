@@ -3,8 +3,8 @@
 SOSC 314 Computational Social Science, Duke Kunshan University (Prof. Markus Neumann), Fall 2026
 Jake Faulkner, Daniel Monteiro and Kiran Perla
 
-**Read the report:** [to be added
-**Report notebook:** [to be adeed]
+**Read the report:** https://jakefaulkner316-cell.github.io/Jake_Daniel_Kiran_SOSC314/
+**Report notebook:** [`final_report/final_report.ipynb`](final_report/final_report.ipynb)
 
 ## Project summary
 
