@@ -1,0 +1,26 @@
+# Python dependencies for the analysis scripts and the final report notebook.
+# Install with:  pip install -r requirements.txt
+# Tested with Python 3.10 to 3.13 (Google Colab and a local Linux machine).
+
+# Data and statistics
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+statsmodels>=0.14
+pyfixest>=0.18        # ad-level fixed-effects models (week 5 script 06, week 7 script 02)
+scikit-learn>=1.3     # LDA topic diagnostics (week 5)
+nltk>=3.8             # English stopword list (week 3)
+openpyxl>=3.1         # labelling sheets (.xlsx)
+xlrd>=2.0             # Harvard General Inquirer spreadsheet (.xls)
+
+# Figures
+matplotlib>=3.7
+
+# Building the report page (final_report/build_html.sh)
+jupyter>=1.0
+nbconvert>=7.0
+nbformat>=5.9
+ipykernel>=6.0
+
+# The structural topic model runs in R (4.2 or later):
+#   install.packages(c("stm", "quanteda", "readr", "dplyr", "lmtest", "sandwich"))
